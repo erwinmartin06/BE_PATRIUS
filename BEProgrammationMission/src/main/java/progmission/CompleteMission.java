@@ -285,10 +285,12 @@ public class CompleteMission extends SimpleMission {
 		this.getSatellite().getPropagator().addEventDetector(eventDazzlingDetector);
 
 /////////////////////////////////////////////////////////
+
 		// Finally propagating the orbit
 		this.getSatellite().getPropagator().propagate(this.getStartDate(), this.getEndDate());
 		
 /////////////////////////////////////////////////////////
+
 		final Timeline timeline1 = new Timeline(eventVisibilityLogger,
 		new AbsoluteDateInterval(this.getStartDate(), this.getEndDate()), null);
 
@@ -297,7 +299,6 @@ public class CompleteMission extends SimpleMission {
 
 		final Timeline timeline3 = new Timeline(eventDazzlingLogger,
 				new AbsoluteDateInterval(this.getStartDate(), this.getEndDate()), null); 
-		/////////////////////
 
 		final Timeline siteAccessTimeline = new Timeline(
 				new AbsoluteDateInterval(this.getStartDate(), this.getEndDate()));
@@ -355,12 +356,12 @@ public class CompleteMission extends SimpleMission {
 		SensorModel sensorModel = new SensorModel(this.getSatellite().getAssembly(), "sensor");
 		
 		sensorModel.addMaskingCelestialBody(this.getEarth());
-		PVCoordinatesProvider target = new TopocentricFrame(this.getEarth(), targetSite.getPoint(),targetSite.getName());
+		PVCoordinatesProvider target = new TopocentricFrame(this.getEarth(), targetSite.getPoint(), targetSite.getName());
 		LocalRadiusProvider radius = new ConstantRadiusProvider(0);
 		sensorModel.setMainTarget(target, radius);
 		
-		EventDetector visibilityDetector = new SensorVisibilityDetector(sensorModel, MAXCHECK_EVENTS, TRESHOLD_EVENTS, EventDetector.Action.CONTINUE, 
-				EventDetector.Action.CONTINUE);
+		EventDetector visibilityDetector = new SensorVisibilityDetector(sensorModel, MAXCHECK_EVENTS, TRESHOLD_EVENTS, 
+			EventDetector.Action.CONTINUE, EventDetector.Action.CONTINUE);
 
 		return visibilityDetector;
 	}
@@ -379,10 +380,10 @@ public class CompleteMission extends SimpleMission {
 	private EventDetector createConstraintIlluminationDetector(Site targetSite) {
 		
 		
-		PVCoordinatesProvider target = new TopocentricFrame(this.getEarth(), targetSite.getPoint(),targetSite.getName());
-		EventDetector illuminationDetector = new ThreeBodiesAngleDetector(this.getEarth(), target ,
-				this.getSun(), MathLib.toRadians(180-ConstantsBE.MAX_SUN_INCIDENCE_ANGLE), MAXCHECK_EVENTS, 
-				TRESHOLD_EVENTS, EventDetector.Action.CONTINUE );
+		PVCoordinatesProvider target = new TopocentricFrame(this.getEarth(), targetSite.getPoint(), targetSite.getName());
+		EventDetector illuminationDetector = new ThreeBodiesAngleDetector(this.getEarth(), target,
+			this.getSun(), MathLib.toRadians(180-ConstantsBE.MAX_SUN_INCIDENCE_ANGLE), MAXCHECK_EVENTS, 
+			TRESHOLD_EVENTS, EventDetector.Action.CONTINUE);
 		
 		
 		return illuminationDetector;
@@ -402,10 +403,10 @@ public class CompleteMission extends SimpleMission {
 	private EventDetector createConstraintDazzlingDetector(Site targetSite) {
 		
 		
-		PVCoordinatesProvider target = new TopocentricFrame(this.getEarth(), targetSite.getPoint(),targetSite.getName());
-		EventDetector DazzlingDetector = new ThreeBodiesAngleDetector(this.getSatellite().getPropagator().getPvProvider(), target, 
-				this.getSun(), MathLib.toRadians(ConstantsBE.MAX_SUN_PHASE_ANGLE), MAXCHECK_EVENTS, TRESHOLD_EVENTS,
-				EventDetector.Action.CONTINUE );
+		PVCoordinatesProvider target = new TopocentricFrame(this.getEarth(), targetSite.getPoint(), targetSite.getName());
+		EventDetector DazzlingDetector = new ThreeBodiesAngleDetector(this.getSatellite().getPropagator().getPvProvider(), 
+			target, this.getSun(), MathLib.toRadians(ConstantsBE.MAX_SUN_PHASE_ANGLE), MAXCHECK_EVENTS, TRESHOLD_EVENTS,
+			EventDetector.Action.CONTINUE);
 		
 		
 		return DazzlingDetector;
