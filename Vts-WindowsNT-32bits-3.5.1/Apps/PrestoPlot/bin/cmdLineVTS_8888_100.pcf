@@ -1,0 +1,12 @@
+# (Auto-generated file by VTS)
+
+# Initialise the host and port numbers and connect to the server
+-plugin "VTSConnect:hostname=localhost port=8888 appId=100 title='#100 - PrestoPlot' pmdDirectory='C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/pmds'"
+
+# Load in any data files (The CCSDS Plugin will auto-display the graphs for each file loaded)
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Target_Sites_POI.txt"
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Satellite_Trajectory_OEM.txt"
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Cinematic_Plan_AEM.txt"
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Cinematic_Plan_Events_MEM.txt"
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Satellite_Trajectory_OEM.txt"
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Nadir_Pointing_AEM.txt"

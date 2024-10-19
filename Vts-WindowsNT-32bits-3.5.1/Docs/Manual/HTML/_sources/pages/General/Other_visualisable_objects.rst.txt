@@ -1,0 +1,23 @@
+.. _Other_visualisable_objects:
+
+Other visualisable objects
+==================================================================================
+
+
+.. _Other_visualisable_objects#Positional_covariance_ellipsoid:
+
+Positional covariance ellipsoid
+----------------------------------------------------------------------------------
+
+The positional covariance of a satellite can be configured in :ref:`general properties of a satellite <_VTS_configuration_utility_user_manual#Positional_covariance_of_a_satellite>` in the VTS Configurator. It is displayed as an ellipsoid representing the uncertainty of an orbit state. The positional covariance is defined in kilometers and oriented in the TNW local orbital frame.
+
+The following graphic properties can be configured in the scenario state editor:
+
+- Visibility
+- Color and Transparency (as an alpha channel)
+- Scale 
+
+.. figure:: /_images/PositionalCovarianceEllipsoid.png
+   :align: center
+
+   Positional covariance ellipsoid in Celestia

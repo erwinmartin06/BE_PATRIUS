@@ -1,0 +1,485 @@
+"Sol_Eme2000Axes" "Sol"
+{
+   Class "component"
+   Mesh "emeAxes.3ds"
+   Radius 1392684
+   MeshScale 1392684
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0.707107 0.707107 0 0]
+   OrbitFrame { BodyFixed { Center "Sol" } }
+   BodyFrame { EquatorJ2000 { Center "Sol" } }
+}
+
+"Sol_Axes" "Sol"
+{
+   Class "component"
+   Mesh "bodyAxes.3ds"
+   Radius 1392684
+   MeshScale 1392684
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0.707107 0.707107 0 0]
+   OrbitFrame { BodyFixed { Center "Sol" } }
+   BodyFrame { BodyFixed { Center "Sol" } }
+}
+
+Modify "Mars" "Sol"
+{
+   Class "planet"
+   OrbitColor [1 0.9075 0]
+   TrajectoryPlotWidth 1
+   SampledTrajectory
+   {
+      Source "MARS_CIC_POSITION_VELOCITY.xyz"
+      Interpolation "cubic"
+      DoublePrecision true
+   }
+   SampledOrientation "MARS_CIC_ATTITUDE_EME2000.q"
+   OrbitFrame { EquatorJ2000 { Center "Sol" } }
+   BodyFrame { EquatorJ2000 { Center "Sol" } }
+   Radius 3396
+}
+
+"Mars_Eme2000Axes" "Sol/Mars"
+{
+   Class "component"
+   Mesh "emeAxes.3ds"
+   Radius 6792
+   MeshScale 6792
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0.707107 0.707107 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars" } }
+   BodyFrame { EquatorJ2000 { Center "Sol/Mars" } }
+}
+
+"Mars_Axes" "Sol/Mars"
+{
+   Class "component"
+   Mesh "bodyAxes.3ds"
+   Radius 6792
+   MeshScale 6792
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0.707107 0.707107 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars" } }
+   BodyFrame { BodyFixed { Center "Sol/Mars" } }
+}
+
+Modify "Phobos" "Sol/Mars"
+{
+   Class "planet"
+   OrbitColor [1 0 0.394995]
+   TrajectoryPlotWidth 1
+   SampledTrajectory
+   {
+      Source "PHOBOS_CIC_POSITION_VELOCITY.xyz"
+      Interpolation "cubic"
+      DoublePrecision true
+   }
+   SampledOrientation "PHOBOS_CIC_ATTITUDE_EME2000.q"
+   OrbitFrame { EquatorJ2000 { Center "Sol/Mars" } }
+   BodyFrame { EquatorJ2000 { Center "Sol/Mars" } }
+   Mesh "Phobos_Ernst_textured-shifted.obj"
+   Emissive false
+   Radius 10.67
+   MeshScale 1
+   NormalizeMesh false
+   Albedo 0.7
+   MeshCenter [0 0 0]
+}
+
+"Phobos_Eme2000Axes" "Sol/Mars/Phobos"
+{
+   Class "component"
+   Mesh "emeAxes.3ds"
+   Radius 21.34
+   MeshScale 21.34
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0.707107 0.707107 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos" } }
+   BodyFrame { EquatorJ2000 { Center "Sol/Mars/Phobos" } }
+}
+
+"Phobos_Axes" "Sol/Mars/Phobos"
+{
+   Class "component"
+   Mesh "bodyAxes.3ds"
+   Radius 21.34
+   MeshScale 21.34
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0 0 1 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos" } }
+   BodyFrame { BodyFixed { Center "Sol/Mars/Phobos" } }
+}
+
+AltSurface "Sol_Mars_Phobos_newLayer1_0" "Sol/Mars/Phobos"
+{
+   Texture "phobosRef.jpg"
+}
+
+Modify "Phobos" "Sol/Mars" {
+   Atmosphere {
+      CloudHeight 0
+      CloudSpeed 0
+      CloudMap "phobosRef.jpg"
+   }
+}
+Modify "Deimos" "Sol/Mars"
+{
+   Class "planet"
+   OrbitColor [0 1 0.917494]
+   TrajectoryPlotWidth 1
+   SampledTrajectory
+   {
+      Source "DEIMOS_CIC_POSITION_VELOCITY.xyz"
+      Interpolation "cubic"
+      DoublePrecision true
+   }
+   SampledOrientation "DEIMOS_CIC_ATTITUDE_EME2000.q"
+   OrbitFrame { EquatorJ2000 { Center "Sol/Mars" } }
+   BodyFrame { EquatorJ2000 { Center "Sol/Mars" } }
+   Mesh "Deimos.obj"
+   Emissive false
+   Radius 12
+   NormalizeMesh true
+   Albedo 0.7
+   MeshCenter [0 0 0]
+}
+
+"Deimos_Eme2000Axes" "Sol/Mars/Deimos"
+{
+   Class "component"
+   Mesh "emeAxes.3ds"
+   Radius 24
+   MeshScale 24
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0.707107 0.707107 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Deimos" } }
+   BodyFrame { EquatorJ2000 { Center "Sol/Mars/Deimos" } }
+}
+
+"Deimos_Axes" "Sol/Mars/Deimos"
+{
+   Class "component"
+   Mesh "bodyAxes.3ds"
+   Radius 24
+   MeshScale 24
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0 0 1 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Deimos" } }
+   BodyFrame { BodyFixed { Center "Sol/Mars/Deimos" } }
+}
+
+Modify "Earth" "Sol"
+{
+   Class "planet"
+   OrbitColor [0 0.192996 1]
+   TrajectoryPlotWidth 1
+   SampledTrajectory
+   {
+      Source "EARTH_CIC_POSITION_VELOCITY.xyz"
+      Interpolation "cubic"
+      DoublePrecision true
+   }
+   SampledOrientation "EARTH_CIC_ATTITUDE_EME2000.q"
+   OrbitFrame { EquatorJ2000 { Center "Sol" } }
+   BodyFrame { EquatorJ2000 { Center "Sol" } }
+   Radius 6378.137
+}
+
+"Earth_Eme2000Axes" "Sol/Earth"
+{
+   Class "component"
+   Mesh "emeAxes.3ds"
+   Radius 12756.274
+   MeshScale 12756.274
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0.707107 0.707107 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Earth" } }
+   BodyFrame { EquatorJ2000 { Center "Sol/Earth" } }
+}
+
+"Earth_Axes" "Sol/Earth"
+{
+   Class "component"
+   Mesh "bodyAxes.3ds"
+   Radius 12756.274
+   MeshScale 12756.274
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0.707107 0.707107 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Earth" } }
+   BodyFrame { BodyFixed { Center "Sol/Earth" } }
+}
+
+"MMX_ref" "Sol/Mars/Phobos"
+{
+   Class "spacecraft"
+   Radius 0.0005
+   Mesh "ref_model.3ds"
+   NormalizeMesh false
+   MeshScale 0.0000001
+   OrbitColor [0.188235 0 1]
+   TrajectoryPlotWidth 2
+   TrajectoryPlotDuration 0.5
+   TrajectoryPlotLead 0.25
+   TrajectoryPlotFade 0.5
+   SampledTrajectory
+   {
+      Source "MMX_CIC_POSITION_VELOCITY.xyz"
+      Interpolation "cubic"
+      DoublePrecision true
+   }
+   SampledOrientation "MMX_CIC_ATTITUDE_EME2000.q"
+   OrbitFrame { EquatorJ2000 { Center "Sol/Mars/Phobos" } }
+   BodyFrame { EquatorJ2000 { Center "Sol/Mars/Phobos" } }
+}
+
+"MMX" "Sol/Mars/Phobos/MMX_ref"
+{
+   Class "component"
+   Mesh "MMX-E-19-113_MMX_3DCAD_MODEL_LAUNCH-b.3ds"
+   Emissive false
+   Radius 0.0005
+   NormalizeMesh true
+   Albedo 0.7
+   FixedPosition [0 0 0]
+   FixedRotation {}
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref" } }
+   BodyFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref" } }
+}
+
+"MMX_Eme2000Axes" "Sol/Mars/Phobos/MMX_ref"
+{
+   Class "component"
+   Mesh "emeAxes.3ds"
+   Radius 0.002
+   MeshScale 0.002
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0.707107 0.707107 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref" } }
+   BodyFrame { EquatorJ2000 { Center "Sol/Mars/Phobos" } }
+}
+
+"MMX_QswAxes" "Sol/Mars/Phobos/MMX_ref"
+{
+   Class "component"
+   Mesh "qswAxes.3ds"
+   Radius 0.002
+   MeshScale 0.002
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [0 0 0 1]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref" } }
+   BodyFrame {
+      TwoVector {
+         Center "Sol/Mars/Phobos/MMX_ref"
+         Primary {
+            Axis "x"
+            RelativePosition { Target "Sol/Mars/Phobos" }
+         }
+         Secondary {
+            Axis "z"
+            RelativeVelocity { Target "Sol/Mars/Phobos" }
+         }
+      }
+   }
+}
+
+"MMX_TnwAxes" "Sol/Mars/Phobos/MMX_ref"
+{
+   Class "component"
+   Mesh "tnwAxes.3ds"
+   Radius 0.002
+   MeshScale 0.002
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedQuaternion [1 0 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref" } }
+   BodyFrame {
+      TwoVector {
+         Center "Sol/Mars/Phobos/MMX_ref"
+         Primary {
+            Axis "-x"
+            RelativeVelocity { Target "Sol/Mars/Phobos" }
+         }
+         Secondary {
+            Axis "z"
+            RelativePosition { Target "Sol/Mars/Phobos" }
+         }
+      }
+   }
+}
+
+"MMX_Axes" "Sol/Mars/Phobos/MMX_ref"
+{
+   Class "component"
+   Mesh "satAxes.3ds"
+   Radius 0.002
+   MeshScale 0.002
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   FixedRotation {}
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref" } }
+   BodyFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref" } }
+}
+
+"MMX_SunDir" "Sol/Mars/Phobos/MMX_ref"
+{
+   Class "component"
+   Mesh "vector-yellow-sun.3ds"
+   Radius 0.002
+   MeshScale 0.002
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref" } }
+   FixedRotation { MeridianAngle 180 }
+   BodyFrame {
+      TwoVector {
+         Center "Sol/Mars/Phobos/MMX_ref"
+         Primary {
+            Axis "x"
+            RelativePosition { Target "Sol" }
+         }
+         Secondary {
+            Axis "z"
+            ConstantVector
+            {
+               Vector [ 0 0 1 ]
+               Frame {
+                  EquatorJ2000 { Center "Sol/Mars/Phobos" }
+               }
+            }
+         }
+      }
+   }
+   Visible false
+}
+
+"MMX_BodyDir" "Sol/Mars/Phobos/MMX_ref"
+{
+   Class "component"
+   Mesh "vector-magenta-body.3ds"
+   Radius 0.002
+   MeshScale 0.002
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref" } }
+   FixedRotation { MeridianAngle 180 }
+   BodyFrame {
+      TwoVector {
+         Center "Sol/Mars/Phobos/MMX_ref"
+         Primary {
+            Axis "x"
+            RelativePosition { Target "Sol/Mars/Phobos" }
+         }
+         Secondary {
+            Axis "z"
+            RelativeVelocity { Target "Sol/Mars/Phobos" }
+         }
+      }
+   }
+   Visible false
+}
+
+"MMX_VelDir" "Sol/Mars/Phobos/MMX_ref"
+{
+   Class "component"
+   Mesh "vector-white.3ds"
+   Radius 0.002
+   MeshScale 0.002
+   NormalizeMesh false
+   Emissive true
+   FixedPosition [0 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref" } }
+   FixedRotation { MeridianAngle 180 }
+   BodyFrame {
+      TwoVector {
+         Center "Sol/Mars/Phobos/MMX_ref"
+         Primary {
+            Axis "-x"
+            RelativeVelocity { Target "Sol/Mars/Phobos" }
+         }
+         Secondary {
+            Axis "z"
+            RelativePosition { Target "Sol/Mars/Phobos" }
+         }
+      }
+   }
+   Visible false
+}
+
+"MIRS_sens_ref" "Sol/Mars/Phobos/MMX_ref/MMX"
+{
+   Class "component"
+   Visible false
+   Radius 0.000001
+   FixedPosition [0 0 0]
+   FixedRotation {}
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref/MMX" } }
+   BodyFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref/MMX" } }
+}
+
+"MIRS" "Sol/Mars/Phobos/MMX_ref/MMX/MIRS_sens_ref"
+{
+   Class "component"
+   Radius 10000
+   FixedPosition [0 0 0]
+   FixedQuaternion [1 0 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref/MMX/MIRS_sens_ref" } }
+   BodyFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref/MMX/MIRS_sens_ref" } }
+   Sensor {
+      Target "Sol/Mars/Phobos"
+      Range 10000
+      Shape "Rectangular"
+      HorizontalFOV 0.02
+      VerticalFOV 3.3
+      FrustumColor [1 0.666667 1]
+      FrustumBaseColor [0.666667 0 1]
+      FrustumOpacity 0.6
+      GridOpacity 0.6
+      TraceDuration 0
+      TraceOpacity 0.6
+      TraceColor [0.188235 0 1]
+   }
+}
+
+"MIRS_AimAxis" "Sol/Mars/Phobos/MMX_ref/MMX/MIRS_sens_ref"
+{
+   Class "component"
+   Mesh "vector-cyan.3ds"
+   Radius 0.00266666666666667
+   MeshScale 0.00266666666666667
+   NormalizeMesh false
+   Emissive true
+   Orientation [ 90 0 1 0 ]
+   FixedPosition [0 0 0]
+   FixedQuaternion [1 0 0 0]
+   OrbitFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref/MMX/MIRS_sens_ref" } }
+   BodyFrame { BodyFixed { Center "Sol/Mars/Phobos/MMX_ref/MMX/MIRS_sens_ref" } }
+}
+

@@ -1,0 +1,1306 @@
+2022-03-04T17:38:45	INFO	VTS	Launch of VTS.
+2022-03-04T17:38:58	INFO	Loader	Project loaded from revision 4169 by XmlReader v2.6
+2022-03-04T17:39:01	INFO	Validator	The project is valid
+2022-03-04T17:39:01	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/Rosetta/CIVAP_SDL_LAFR.vts~
+2022-03-04T17:39:01	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/Rosetta/CIVAP_SDL_LAFR.vts~
+2022-03-04T17:39:11	INFO	VTS	End of VTS.
+2022-03-09T11:28:56	INFO	VTS	Launch of VTS.
+2022-03-09T11:29:28	INFO	VTS	End of VTS.
+2022-03-09T16:29:52	INFO	VTS	Launch of VTS.
+2022-03-09T16:30:01	INFO	Loader	Project loaded from revision 4169 by XmlReader v2.6
+2022-03-09T16:30:03	INFO	Validator	The project is valid
+2022-03-09T16:30:03	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/Rosetta/CIVAP_SDL_LAFR.vts~
+2022-03-09T16:30:03	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/Rosetta/CIVAP_SDL_LAFR.vts~
+2022-03-09T16:30:42	INFO	VTS	End of VTS.
+2022-03-18T15:36:00	INFO	VTS	Launch of VTS.
+2022-03-18T15:40:12	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts
+2022-03-18T15:42:17	INFO	3D Properties	Error: On a body which is not a solar system planet, radius must be defined.
+2022-03-18T15:42:17	INFO	Writer	Warning: The project contains errors, the file "MIRS.vts" may be corrupted.
+2022-03-18T15:42:17	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts
+2022-03-18T15:43:02	INFO	3D Properties	Error: On a body which is not a solar system planet, radius must be defined.
+2022-03-18T15:43:02	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:43:02	INFO	Writer	Warning: The project contains errors, the file "MIRS.vts" may be corrupted.
+2022-03-18T15:43:02	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts
+2022-03-18T15:43:06	INFO	Time & Options	Project dates updated.
+2022-03-18T15:43:07	INFO	3D Properties	Error: On a body which is not a solar system planet, radius must be defined.
+2022-03-18T15:43:07	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:43:07	INFO	Player	Fix errors before running visualization
+2022-03-18T15:43:52	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:43:52	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:43:52	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts
+2022-03-18T15:43:54	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:43:54	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:43:54	INFO	Validator	The project is valid
+2022-03-18T15:43:54	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts~
+2022-03-18T15:43:54	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts~
+2022-03-18T15:44:44	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:44:44	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:44:44	INFO	Validator	The project is valid
+2022-03-18T15:44:44	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts~
+2022-03-18T15:44:44	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts~
+2022-03-18T15:47:22	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:47:22	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts
+2022-03-18T15:47:25	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:47:25	INFO	Validator	The project is valid
+2022-03-18T15:47:25	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts~
+2022-03-18T15:47:25	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts~
+2022-03-18T15:48:42	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:48:42	INFO	Validator	The project is valid
+2022-03-18T15:48:42	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts~
+2022-03-18T15:48:42	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts~
+2022-03-18T15:51:50	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts
+2022-03-18T15:51:52	INFO	Validator	The project is valid
+2022-03-18T15:51:52	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts~
+2022-03-18T15:51:52	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts~
+2022-03-18T15:53:02	INFO	3D Properties	Warning: The 3ds file is missing
+2022-03-18T15:53:02	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/MIRS.vts
+2022-03-18T15:59:04	INFO	VTS	End of VTS.
+2022-03-21T09:44:28	INFO	VTS	Launch of VTS.
+2022-03-21T09:44:39	INFO	Loader	Project loaded from revision 8174 by XmlReader v3.4
+2022-03-21T09:48:34	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T09:48:34	INFO	3D Properties	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Layers/Phobos_textured/Phobos_Ernst_HD/Phobos_Ernst_textured-shifted.obj
+2022-03-21T09:48:34	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/JasmineEasy/PHOBOS_CIC_POSITION_VELOCITY.txt
+2022-03-21T09:48:34	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/JasmineEasy/PHOBOS_CIC_ATTITUDE_EME2000.txt
+2022-03-21T09:48:34	INFO	Layers	Error: The specified texture path does not exists or is not a file (Layer: "newLayer1").
+2022-03-21T09:48:34	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/JasmineEasy/MMX_CIC_POSITION_VELOCITY.txt
+2022-03-21T09:48:34	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/JasmineEasy/MMX_CIC_ATTITUDE_EME2000.txt
+2022-03-21T09:49:04	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T09:49:04	INFO	3D Properties	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Layers/Phobos_textured/Phobos_Ernst_HD/Phobos_Ernst_textured-shifted.obj
+2022-03-21T09:49:04	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/JasmineEasy/PHOBOS_CIC_POSITION_VELOCITY.txt
+2022-03-21T09:49:04	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/JasmineEasy/PHOBOS_CIC_ATTITUDE_EME2000.txt
+2022-03-21T09:49:04	INFO	Layers	Error: The specified texture path does not exists or is not a file (Layer: "newLayer1").
+2022-03-21T09:49:04	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/JasmineEasy/MMX_CIC_POSITION_VELOCITY.txt
+2022-03-21T09:49:04	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/JasmineEasy/MMX_CIC_ATTITUDE_EME2000.txt
+2022-03-21T09:49:04	INFO	Writer	Warning: The project contains errors, the file "SimuTest_Jasmine.vts" may be corrupted.
+2022-03-21T09:49:04	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T09:58:18	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T09:58:18	INFO	3D Properties	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Layers/Phobos_textured/Phobos_Ernst_HD/Phobos_Ernst_textured-shifted.obj
+2022-03-21T09:58:18	INFO	Layers	Error: The specified texture path does not exists or is not a file (Layer: "newLayer1").
+2022-03-21T09:58:19	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T09:58:19	INFO	3D Properties	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Layers/Phobos_textured/Phobos_Ernst_HD/Phobos_Ernst_textured-shifted.obj
+2022-03-21T09:58:19	INFO	Layers	Error: The specified texture path does not exists or is not a file (Layer: "newLayer1").
+2022-03-21T09:58:20	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T09:58:20	INFO	3D Properties	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Layers/Phobos_textured/Phobos_Ernst_HD/Phobos_Ernst_textured-shifted.obj
+2022-03-21T09:58:20	INFO	Layers	Error: The specified texture path does not exists or is not a file (Layer: "newLayer1").
+2022-03-21T09:58:21	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T09:58:21	INFO	3D Properties	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Layers/Phobos_textured/Phobos_Ernst_HD/Phobos_Ernst_textured-shifted.obj
+2022-03-21T09:58:21	INFO	Layers	Error: The specified texture path does not exists or is not a file (Layer: "newLayer1").
+2022-03-21T09:59:48	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T09:59:48	INFO	Layers	Error: The specified texture path does not exists or is not a file (Layer: "newLayer1").
+2022-03-21T09:59:48	INFO	Writer	Warning: The project contains errors, the file "SimuTest_Jasmine.vts" may be corrupted.
+2022-03-21T09:59:49	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T09:59:58	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T09:59:58	INFO	Layers	Error: The specified texture path does not exists or is not a file (Layer: "newLayer1").
+2022-03-21T10:00:59	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T10:00:59	INFO	Writer	Warning: The project contains errors, the file "SimuTest_Jasmine.vts" may be corrupted.
+2022-03-21T10:00:59	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T10:02:22	INFO	Time & Options	Project dates updated.
+2022-03-21T10:02:22	INFO	Time & Options	Project dates updated.
+2022-03-21T10:02:24	INFO	Time & Options	Project dates updated.
+2022-03-21T10:02:27	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T10:03:16	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T10:03:17	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T10:03:23	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T10:03:23	INFO	Writer	Warning: The project contains errors, the file "SimuTest_Jasmine.vts" may be corrupted.
+2022-03-21T10:03:23	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T10:03:23	INFO	VTS	End of VTS.
+2022-03-21T10:03:45	INFO	VTS	Launch of VTS.
+2022-03-21T10:03:51	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-21T10:04:56	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T10:04:56	INFO	Writer	Warning: The project contains errors, the file "SimuTest_Jasmine.vts" may be corrupted.
+2022-03-21T10:04:56	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T10:05:02	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T10:05:02	INFO	Player	Fix errors before running visualization
+2022-03-21T10:05:06	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-21T10:05:08	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-03-21T10:05:08	INFO	Writer	Warning: The project contains errors, the file "SimuTest_Jasmine.vts" may be corrupted.
+2022-03-21T10:05:08	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T10:06:03	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T10:06:05	INFO	Validator	The project is valid
+2022-03-21T10:06:05	INFO	Validator	The project is valid
+2022-03-21T10:06:05	INFO	Validator	Checking data files...
+2022-03-21T10:06:07	INFO	Validator	Data files are valid
+2022-03-21T10:06:09	INFO	Validator	The project is valid
+2022-03-21T10:06:09	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-21T10:06:09	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-21T10:10:27	INFO	Validator	The project is valid
+2022-03-21T10:10:27	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-21T10:10:27	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-21T11:42:47	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T11:42:50	INFO	Validator	The project is valid
+2022-03-21T11:42:50	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-21T11:42:50	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-21T11:43:41	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T11:43:46	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T11:43:48	INFO	Validator	The project is valid
+2022-03-21T11:43:48	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-21T11:43:48	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-21T11:46:00	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-21T14:55:28	INFO	Time & Options	Project dates updated.
+2022-03-21T14:57:33	INFO	Validator	The project is valid
+2022-03-21T14:57:33	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-21T14:57:33	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-21T17:31:38	INFO	VTS	End of VTS.
+2022-03-24T10:42:57	INFO	VTS	Launch of VTS.
+2022-03-24T10:43:13	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-24T10:43:24	INFO	Validator	The project is valid
+2022-03-24T10:43:24	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-24T10:43:24	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-24T10:47:09	INFO	VTS	End of VTS.
+2022-03-25T11:23:02	INFO	VTS	Launch of VTS.
+2022-03-25T11:23:02	INFO	VTS	Launch of VTS.
+2022-03-25T11:23:05	INFO	VTS	End of VTS.
+2022-03-25T11:23:06	INFO	VTS	End of VTS.
+2022-03-25T11:23:08	INFO	VTS	Launch of VTS.
+2022-03-25T11:23:11	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-25T11:24:25	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/InterfaceProgMirs/MMX_CIC_POSITION_VELOCITY.txt
+2022-03-25T11:24:25	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/InterfaceProgMirs/MMX_CIC_ATTITUDE_EME2000.txt
+2022-03-25T11:24:25	INFO	Writer	Warning: The project contains errors, the file "SimuTest_Jasmine.vts" may be corrupted.
+2022-03-25T11:24:25	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-25T11:24:35	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/InterfaceProgMirs/PHOBOS_CIC_POSITION_VELOCITY.txt
+2022-03-25T11:24:35	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/InterfaceProgMirs/PHOBOS_CIC_ATTITUDE_EME2000.txt
+2022-03-25T11:24:35	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/InterfaceProgMirs/MMX_CIC_POSITION_VELOCITY.txt
+2022-03-25T11:24:35	INFO	Position/Orientation	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Data/InterfaceProgMirs/MMX_CIC_ATTITUDE_EME2000.txt
+2022-03-25T11:24:35	INFO	Writer	Warning: The project contains errors, the file "SimuTest_Jasmine.vts" may be corrupted.
+2022-03-25T11:24:35	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-25T11:27:40	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-03-25T11:27:40	INFO	Validator	The project is valid
+2022-03-25T11:27:45	INFO	Time & Options	Project dates updated.
+2022-03-25T11:27:47	INFO	Validator	The project is valid
+2022-03-25T11:27:47	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-25T11:27:47	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-25T11:30:20	INFO	Validator	The project is valid
+2022-03-25T11:30:20	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-25T11:30:20	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-25T12:03:17	INFO	Time & Options	Project dates updated.
+2022-03-25T12:03:18	INFO	Validator	The project is valid
+2022-03-25T12:03:18	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-25T12:03:18	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-25T16:11:39	INFO	Time & Options	Project dates updated.
+2022-03-25T16:11:40	INFO	Validator	The project is valid
+2022-03-25T16:11:40	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-25T16:11:40	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts~
+2022-03-25T16:17:05	INFO	Time & Options	Project dates updated.
+2022-03-25T16:17:08	INFO	Time & Options	Project dates updated.
+2022-03-25T16:17:09	INFO	Time & Options	Project dates updated.
+2022-03-25T16:17:10	INFO	Time & Options	Project dates updated.
+2022-03-25T16:17:10	INFO	Time & Options	Project dates updated.
+2022-03-25T16:17:10	INFO	Time & Options	Project dates updated.
+2022-03-25T16:17:10	INFO	Time & Options	Project dates updated.
+2022-03-25T16:17:12	INFO	Validator	The project is valid
+2022-03-25T16:17:15	INFO	Validator	The project is valid
+2022-03-25T16:17:15	INFO	Validator	Checking data files...
+2022-03-25T16:17:15	INFO	Validator	Data files are valid
+2022-03-25T17:12:38	INFO	VTS	End of VTS.
+2022-03-28T14:43:15	INFO	VTS	Launch of VTS.
+2022-03-28T14:44:10	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-28T14:44:17	INFO	Time & Options	Project dates updated.
+2022-03-28T14:44:18	INFO	Validator	The project is valid
+2022-03-28T14:44:19	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-28T14:44:19	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-28T15:30:42	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-03-28T15:30:42	INFO	VTS	End of VTS.
+2022-03-28T16:26:36	INFO	VTS	Launch of VTS.
+2022-03-28T16:26:39	INFO	VTS	End of VTS.
+2022-03-29T15:50:23	INFO	VTS	Launch of VTS.
+2022-03-29T15:50:33	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-29T15:50:35	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-03-29T15:50:35	INFO	Validator	The project is valid
+2022-03-29T15:50:35	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-29T15:50:35	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-29T15:54:15	INFO	VTS	End of VTS.
+2022-03-29T17:02:56	INFO	VTS	Launch of VTS.
+2022-03-29T17:04:39	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-29T17:04:48	INFO	Time & Options	Project dates updated.
+2022-03-29T17:04:50	INFO	Validator	The project is valid
+2022-03-29T17:04:50	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-29T17:04:50	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-29T17:16:46	INFO	VTS	End of VTS.
+2022-03-30T09:44:45	INFO	VTS	Launch of VTS.
+2022-03-30T09:44:48	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-30T09:45:27	INFO	Time & Options	Warning: No intersection of data date ranges. Check the data files currently in use.
+2022-03-30T09:45:27	INFO	Validator	The project is valid
+2022-03-30T09:45:47	INFO	Time & Options	Project dates updated.
+2022-03-30T09:45:59	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/SimuTest_Jasmine.vts
+2022-03-30T09:45:59	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-30T10:30:30	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:30:30	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:30:30	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:30:30	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:30:30	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:30:30	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:30:30	INFO	Writer	Warning: The project contains errors, the file "InterfaceProgMirsSimu.vts" may be corrupted.
+2022-03-30T10:30:30	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-03-30T10:31:16	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:16	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:16	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:16	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:16	INFO	3D Properties	Error: On a body which is not a solar system planet, radius must be defined.
+2022-03-30T10:31:16	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:16	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:16	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:16	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:16	INFO	Writer	Warning: The project contains errors, the file "InterfaceProgMirsSimu.vts" may be corrupted.
+2022-03-30T10:31:16	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-03-30T10:31:36	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:36	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:36	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:36	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:36	INFO	3D Properties	Error: On a body which is not a solar system planet, radius must be defined.
+2022-03-30T10:31:36	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:36	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:36	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:36	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:38	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:38	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:38	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:38	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:38	INFO	3D Properties	Error: On a body which is not a solar system planet, radius must be defined.
+2022-03-30T10:31:38	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:38	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:31:38	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:31:38	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:32:15	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:32:15	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:32:15	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:32:15	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:32:15	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:32:15	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:32:15	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:32:15	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:32:15	INFO	Writer	Warning: The project contains errors, the file "InterfaceProgMirsSimu.vts" may be corrupted.
+2022-03-30T10:32:15	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-03-30T10:32:32	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:32:32	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:32:32	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:32:32	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:32:32	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:32:32	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:32:32	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:32:32	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:36:21	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:36:21	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:36:21	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:36:21	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:36:21	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:36:21	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:36:21	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:36:21	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:36:21	INFO	Writer	Warning: The project contains errors, the file "InterfaceProgMirsSimu.vts" may be corrupted.
+2022-03-30T10:36:21	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-03-30T10:36:21	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-30T10:36:23	INFO	Position/Orientation	Error (CIC library) in file "Data/JasmineEasy/PHOBOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:36:23	INFO	Position/Orientation	Error (CIC library) in file "Data/JasmineEasy/PHOBOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:36:23	INFO	Position/Orientation	Error (CIC library) in file "Data/JasmineEasy/MMX_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:36:23	INFO	Position/Orientation	Error (CIC library) in file "Data/JasmineEasy/MMX_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:39:13	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-03-30T10:42:51	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:42:51	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MARS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:42:51	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:42:51	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/PHOBOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:42:51	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:42:51	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/DEIMOS_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:42:51	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_POSITION_VELOCITY.txt": expect META_STOP, but got DATE_FORMAT (line 13)
+2022-03-30T10:42:51	INFO	Position/Orientation	Error (CIC library) in file "Data/InterfaceProgMirs/MMX_CIC_ATTITUDE_EME2000.txt": expect ATTITUDE_TYPE, but got DATE_FORMAT (line 15)
+2022-03-30T10:46:59	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-03-30T10:46:59	INFO	Validator	The project is valid
+2022-03-30T10:47:00	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-03-30T10:47:00	INFO	Validator	The project is valid
+2022-03-30T10:47:01	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-03-30T10:47:01	INFO	Validator	The project is valid
+2022-03-30T10:47:04	INFO	Time & Options	Project dates updated.
+2022-03-30T10:47:07	INFO	Validator	The project is valid
+2022-03-30T10:47:07	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-30T10:47:07	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-30T14:59:25	INFO	Time & Options	Project dates updated.
+2022-03-30T14:59:26	INFO	Time & Options	Project dates updated.
+2022-03-30T14:59:27	INFO	Validator	The project is valid
+2022-03-30T14:59:27	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-30T14:59:27	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-30T15:05:41	INFO	Project	Error: No application is associated with the .vts extension for this operation.
+2022-03-30T15:07:55	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-03-30T15:08:10	INFO	Validator	The project is valid
+2022-03-30T15:08:10	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-30T15:08:10	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-03-30T17:24:58	INFO	VTS	End of VTS.
+2022-04-04T10:07:26	INFO	VTS	Launch of VTS.
+2022-04-04T10:07:29	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-04-04T10:07:51	INFO	Time & Options	Project dates updated.
+2022-04-04T10:07:53	INFO	Validator	The project is valid
+2022-04-04T10:07:53	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-04T10:07:53	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-04T10:08:55	INFO	Time & Options	Project dates updated.
+2022-04-04T10:08:56	INFO	Validator	The project is valid
+2022-04-04T10:08:56	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-04T10:08:56	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-04T10:22:26	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-04-04T10:23:28	INFO	3D Properties	Error: On a body which is not a solar system planet, radius must be defined.
+2022-04-04T10:23:28	INFO	Position/Orientation	Error: On a body which is not a solar system planet, default ephemeris are not available.
+2022-04-04T10:23:28	INFO	Writer	Warning: The project contains errors, the file "InterfaceProgMirsSimu.vts" may be corrupted.
+2022-04-04T10:23:28	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-04-04T10:24:30	INFO	3D Properties	Warning: The 3ds file is missing
+2022-04-04T10:24:30	INFO	3D Properties	Warning: The 3ds file is missing
+2022-04-04T10:24:30	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-04-04T10:24:42	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-04-04T10:24:47	INFO	Time & Options	Project dates updated.
+2022-04-04T10:24:48	INFO	Validator	The project is valid
+2022-04-04T10:24:48	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-04T10:24:48	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-04T10:50:48	INFO	Time & Options	Project dates updated.
+2022-04-04T10:50:50	INFO	Validator	The project is valid
+2022-04-04T10:50:50	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-04T10:50:50	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-04T18:09:23	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-04-04T18:09:23	INFO	VTS	End of VTS.
+2022-04-06T10:35:29	INFO	VTS	Launch of VTS.
+2022-04-06T10:35:33	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-04-06T10:35:36	INFO	Time & Options	Project dates updated.
+2022-04-06T10:35:38	INFO	Validator	The project is valid
+2022-04-06T10:35:38	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-06T10:35:38	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-06T14:52:03	INFO	VTS	End of VTS.
+2022-04-06T17:07:43	INFO	VTS	Launch of VTS.
+2022-04-06T17:07:45	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-04-06T17:07:45	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-04-06T17:07:47	INFO	Time & Options	Project dates updated.
+2022-04-06T17:07:48	INFO	Validator	The project is valid
+2022-04-06T17:07:48	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-06T17:07:48	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-06T17:13:34	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-04-06T17:13:34	INFO	VTS	End of VTS.
+2022-04-11T09:54:05	INFO	VTS	Launch of VTS.
+2022-04-11T09:54:11	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-04-11T09:54:11	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-04-11T09:54:13	INFO	Time & Options	Project dates updated.
+2022-04-11T09:54:16	INFO	Validator	The project is valid
+2022-04-11T09:54:16	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-11T09:54:16	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-11T15:01:15	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-04-11T15:01:15	INFO	VTS	End of VTS.
+2022-04-28T16:23:37	INFO	VTS	Launch of VTS.
+2022-04-28T16:23:46	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-04-28T16:23:48	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-04-28T16:23:48	INFO	Player	Fix errors before running visualization
+2022-04-28T16:23:53	INFO	Time & Options	Project dates updated.
+2022-04-28T16:23:55	INFO	Body	Error: This file doesn't exist: C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/Models/Moon.png
+2022-04-28T16:23:55	INFO	Player	Fix errors before running visualization
+2022-04-28T16:25:42	INFO	Time & Options	Project dates updated.
+2022-04-28T16:25:42	INFO	Validator	The project is valid
+2022-04-28T16:25:42	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-28T16:25:42	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-04-28T16:30:06	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts
+2022-04-28T16:30:06	INFO	VTS	End of VTS.
+2022-05-05T16:18:00	INFO	VTS	Launch of VTS.
+2022-05-05T16:18:06	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-05-05T16:18:06	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-05-05T16:18:10	INFO	Time & Options	Project dates updated.
+2022-05-05T16:18:11	INFO	Validator	The project is valid
+2022-05-05T16:18:11	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-05-05T16:18:11	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-05-05T16:30:07	INFO	Validator	The project is valid
+2022-05-05T16:30:07	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-05-05T16:30:07	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-05-05T16:35:22	INFO	VTS	End of VTS.
+2022-05-05T17:02:39	INFO	VTS	Launch of VTS.
+2022-05-05T17:02:42	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-05-05T17:02:42	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-05-05T17:02:47	INFO	Time & Options	Project dates updated.
+2022-05-05T17:02:48	INFO	Validator	The project is valid
+2022-05-05T17:02:48	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-05-05T17:02:48	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-05-05T17:04:10	INFO	VTS	End of VTS.
+2022-05-19T09:59:18	INFO	VTS	Launch of VTS.
+2022-05-19T09:59:23	INFO	Loader	Project loaded from revision 4110 by XmlReader v2.6
+2022-05-19T09:59:27	INFO	Time & Options	Project dates updated.
+2022-05-19T09:59:29	INFO	Validator	The project is valid
+2022-05-19T09:59:29	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/ExempleCIC/ExempleCIC_1.vts~
+2022-05-19T09:59:29	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/ExempleCIC/ExempleCIC_1.vts~
+2022-05-19T10:00:42	INFO	VTS	End of VTS.
+2022-05-31T15:02:51	INFO	VTS	Launch of VTS.
+2022-05-31T17:06:31	INFO	VTS	End of VTS.
+2022-06-23T09:22:07	INFO	VTS	Launch of VTS.
+2022-06-23T09:22:07	INFO	VTS	Launch of VTS.
+2022-06-23T09:22:12	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-06-23T09:22:12	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-06-23T09:24:45	INFO	Validator	The project is valid
+2022-06-23T09:24:45	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-06-23T09:24:45	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-06-23T09:25:30	INFO	VTS	End of VTS.
+2022-06-23T09:26:29	INFO	VTS	End of VTS.
+2022-06-23T09:31:10	INFO	VTS	Launch of VTS.
+2022-06-23T09:31:13	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-06-23T09:31:13	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-06-23T09:31:16	INFO	Validator	The project is valid
+2022-06-23T09:31:16	INFO	Writer	Project saved in C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-06-23T09:31:16	INFO	Player	Start visualization of file C:/Program2/Vts-WindowsNT-32bits-3.5.1/Data/MIRS_MMX/InterfaceProgMirsSimu.vts~
+2022-06-23T11:05:20	INFO	VTS	End of VTS.
+2022-06-23T15:33:11	INFO	VTS	Launch of VTS.
+2022-06-23T15:33:20	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-06-23T15:33:20	INFO	Loader	Project loaded from revision 8200 by XmlReader v3.4
+2022-06-23T15:33:22	INFO	Time & Options	Project dates updated.
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_body.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_gs.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_body.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_body.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_gs.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_body.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_body.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_gs.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_body.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_body.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_gs.3ds
+2022-06-23T15:33:42	INFO	3D Properties	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Model/Cube_body.3ds
+2022-06-23T15:33:42	INFO	Player	Fix errors before running visualization
+2022-06-23T15:35:06	INFO	Time & Options	Project dates updated.
+2022-06-23T15:35:08	INFO	Validator	The project is valid
+2022-06-23T15:35:09	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Mission_VTS_File.vts~
+2022-06-23T15:35:09	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Mission_VTS_File.vts~
+2022-06-23T16:05:34	INFO	VTS	End of VTS.
+2022-06-24T14:32:34	INFO	VTS	Launch of VTS.
+2022-06-24T14:32:37	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-06-24T14:32:37	INFO	Loader	Project loaded from revision 8200 by XmlReader v3.4
+2022-06-24T14:32:39	INFO	Time & Options	Project dates updated.
+2022-06-24T14:32:41	INFO	Validator	The project is valid
+2022-06-24T14:32:41	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Mission_VTS_File.vts~
+2022-06-24T14:32:41	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Mission_VTS_File.vts~
+2022-06-24T15:05:53	INFO	VTS	End of VTS.
+2022-06-28T09:13:01	INFO	VTS	Launch of VTS.
+2022-06-28T09:16:42	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-06-28T09:16:42	INFO	Loader	Project loaded from revision 8200 by XmlReader v3.4
+2022-06-28T09:39:03	INFO	Validator	The project is valid
+2022-06-28T09:39:03	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Mission_VTS_File.vts~
+2022-06-28T09:39:03	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Mission_VTS_File.vts~
+2022-06-28T11:34:40	INFO	Validator	The project is valid
+2022-06-28T11:34:40	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Mission_VTS_File.vts~
+2022-06-28T11:34:40	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/Mission/Mission_VTS_File.vts~
+2022-06-28T11:35:57	INFO	VTS	End of VTS.
+2022-07-08T15:17:04	INFO	VTS	Launch of VTS.
+2022-07-08T15:17:10	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-07-08T15:17:10	INFO	Loader	Project loaded from revision 8200 by XmlReader v3.4
+2022-07-08T15:45:14	INFO	VTS	End of VTS.
+2022-07-18T16:03:26	INFO	VTS	Launch of VTS.
+2022-07-18T16:04:13	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-07-18T16:04:13	INFO	Loader	Project loaded from revision 8200 by XmlReader v3.4
+2022-07-18T16:05:11	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/Patrius_OEM_ImageSat1.txt
+2022-07-18T16:05:11	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/Patrius_AEM_Acquisition_ImageSat1.txt
+2022-07-18T16:05:11	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-07-18T16:05:11	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:05:28	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/Patrius_OEM_ImageSat1.txt
+2022-07-18T16:05:28	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/Patrius_AEM_Acquisition_ImageSat1.txt
+2022-07-18T16:05:28	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-07-18T16:05:28	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:05:30	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/Patrius_OEM_ImageSat1.txt
+2022-07-18T16:05:30	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/Patrius_AEM_Acquisition_ImageSat1.txt
+2022-07-18T16:05:30	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-07-18T16:05:30	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:05:56	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-07-18T16:05:56	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:06:03	INFO	Time & Options	Project dates updated.
+2022-07-18T16:06:06	INFO	Validator	The project is valid
+2022-07-18T16:07:11	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:07:45	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:08:12	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:08:17	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:08:33	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:08:46	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:08:48	INFO	Validator	The project is valid
+2022-07-18T16:08:48	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:08:48	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:10:24	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:10:37	INFO	POI	Error: The coordinates file is missing.
+2022-07-18T16:10:37	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-07-18T16:10:37	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:19:19	INFO	POI	Error: The coordinates file is missing.
+2022-07-18T16:19:20	INFO	POI	Error: The coordinates file is missing.
+2022-07-18T16:19:20	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-07-18T16:19:20	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:19:33	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:19:35	INFO	Validator	The project is valid
+2022-07-18T16:19:37	INFO	Validator	The project is valid
+2022-07-18T16:19:37	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:19:37	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:23:38	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-07-18T16:31:53	INFO	POI	Error: The POI file must contain unit-less or [deg] data.
+2022-07-18T16:32:47	INFO	Validator	The project is valid
+2022-07-18T16:32:48	INFO	Validator	The project is valid
+2022-07-18T16:32:48	INFO	Validator	The project is valid
+2022-07-18T16:33:02	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:33:03	INFO	Validator	The project is valid
+2022-07-18T16:33:04	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:33:04	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:38:25	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-07-18T16:38:42	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:38:44	INFO	Validator	The project is valid
+2022-07-18T16:38:44	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:38:44	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:42:15	INFO	Validator	The project is valid
+2022-07-18T16:42:15	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:42:15	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:42:41	INFO	Validator	The project is valid
+2022-07-18T16:42:41	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:42:41	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:44:58	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:44:59	INFO	Validator	The project is valid
+2022-07-18T16:44:59	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:44:59	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:45:35	INFO	Validator	The project is valid
+2022-07-18T16:45:35	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:45:35	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:46:32	INFO	Validator	The project is valid
+2022-07-18T16:46:32	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:46:32	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:47:27	INFO	Validator	The project is valid
+2022-07-18T16:47:27	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:47:27	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:47:50	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:48:07	INFO	Validator	The project is valid
+2022-07-18T16:48:07	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:48:07	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:48:33	INFO	Validator	The project is valid
+2022-07-18T16:48:33	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:48:33	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:49:50	INFO	Validator	The project is valid
+2022-07-18T16:49:50	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:49:50	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:51:19	INFO	POI	Error (CIC library) in file "Layers/TargetSites.txt": invalid date "20220718T15:25:04.268055" (character 5 should be '-')
+Expected time format : YYYY-MM-DDTHH:mm:ss[.dddddd]
+2022-07-18T16:51:19	INFO	Player	Fix errors before running visualization
+2022-07-18T16:52:01	INFO	Validator	The project is valid
+2022-07-18T16:52:01	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:52:01	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:52:45	INFO	Validator	The project is valid
+2022-07-18T16:52:45	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:52:45	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:53:52	INFO	Validator	The project is valid
+2022-07-18T16:53:52	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:53:52	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:56:00	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:56:02	INFO	Validator	The project is valid
+2022-07-18T16:56:02	INFO	Validator	The project is valid
+2022-07-18T16:56:02	INFO	Validator	The project is valid
+2022-07-18T16:56:03	INFO	Validator	The project is valid
+2022-07-18T16:56:09	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T16:56:10	INFO	Validator	The project is valid
+2022-07-18T16:56:10	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T16:56:10	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:00:12	INFO	Validator	The project is valid
+2022-07-18T17:00:12	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:00:12	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:00:26	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T17:00:28	INFO	Validator	The project is valid
+2022-07-18T17:00:28	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:00:28	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:39:23	INFO	Time & Options	Project dates updated.
+2022-07-18T17:39:23	INFO	Time & Options	Project dates updated.
+2022-07-18T17:43:00	INFO	Time & Options	Project dates updated.
+2022-07-18T17:43:01	INFO	Validator	The project is valid
+2022-07-18T17:43:01	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:43:01	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:51:25	INFO	Time & Options	Project dates updated.
+2022-07-18T17:51:26	INFO	Validator	The project is valid
+2022-07-18T17:51:26	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:51:26	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:51:50	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-07-18T17:51:50	INFO	Validator	The project is valid
+2022-07-18T17:51:50	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:51:50	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-07-18T17:55:30	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-07-18T17:55:30	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-07-18T17:55:31	INFO	VTS	End of VTS.
+2022-08-17T17:52:39	INFO	VTS	Launch of VTS.
+2022-08-17T17:52:43	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-08-17T17:52:43	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-08-17T17:52:49	INFO	Time & Options	Project dates updated.
+2022-08-17T17:52:50	INFO	Time & Options	Project dates updated.
+2022-08-17T17:52:52	INFO	Validator	The project is valid
+2022-08-17T17:52:52	INFO	Validator	The project is valid
+2022-08-17T17:52:52	INFO	Validator	Checking data files...
+2022-08-17T17:52:53	INFO	Validator	Data files are valid
+2022-08-17T17:52:55	INFO	Validator	The project is valid
+2022-08-17T17:52:55	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T17:52:55	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T18:03:07	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Satellite_AEM.txt
+2022-08-17T18:03:07	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-08-17T18:03:07	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:03:11	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Satellite_AEM.txt
+2022-08-17T18:03:11	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-08-17T18:03:11	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:03:17	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Satellite_AEM.txt
+2022-08-17T18:03:17	INFO	Player	Fix errors before running visualization
+2022-08-17T18:03:55	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Satellite_AEM.txt
+2022-08-17T18:03:55	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-08-17T18:03:55	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:04:03	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Satellite_AEM.txt
+2022-08-17T18:04:03	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-08-17T18:04:03	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:04:11	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:04:24	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:04:31	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:04:33	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:04:50	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:05:01	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:05:27	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:05:30	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:05:31	INFO	Validator	The project is valid
+2022-08-17T18:05:31	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T18:05:31	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T18:06:41	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:07:22	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:07:30	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:07:34	INFO	Validator	The project is valid
+2022-08-17T18:07:34	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T18:07:34	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T18:08:03	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:09:10	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:09:15	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T18:10:12	INFO	Validator	The project is valid
+2022-08-17T18:10:12	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T18:10:12	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T18:19:30	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-08-17T18:19:44	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T19:14:11	INFO	Time & Options	Project dates updated.
+2022-08-17T19:14:13	INFO	Validator	The project is valid
+2022-08-17T19:14:14	INFO	Validator	The project is valid
+2022-08-17T19:14:14	INFO	Validator	Checking data files...
+2022-08-17T19:14:14	INFO	Validator	Data files are valid
+2022-08-17T19:14:15	INFO	Validator	The project is valid
+2022-08-17T19:14:15	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T19:14:15	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T19:17:21	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T19:17:34	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T19:17:47	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T19:17:54	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T19:18:05	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T19:18:10	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T19:18:13	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T19:19:43	INFO	Validator	The project is valid
+2022-08-17T19:19:43	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T19:19:43	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T19:31:30	INFO	VTS	End of VTS.
+2022-08-17T19:33:37	INFO	VTS	Launch of VTS.
+2022-08-17T19:34:09	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-08-17T19:34:12	INFO	Position/Orientation	Error (CIC library) in file "Data/BE_Supaero_Nadir_Law_AEM.txt": expect "date values", but found only two fields (last line)
+2022-08-17T19:34:12	INFO	Time & Options	Warning: No intersection of data date ranges. Check the data files currently in use.
+2022-08-17T19:34:13	INFO	Position/Orientation	Error (CIC library) in file "Data/BE_Supaero_Nadir_Law_AEM.txt": expect "date values", but found only two fields (last line)
+2022-08-17T19:34:13	INFO	Player	Fix errors before running visualization
+2022-08-17T19:37:57	INFO	Time & Options	Project dates updated.
+2022-08-17T19:37:59	INFO	Validator	The project is valid
+2022-08-17T19:37:59	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T19:37:59	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-17T19:47:14	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-17T19:47:14	INFO	VTS	End of VTS.
+2022-08-18T11:17:16	INFO	VTS	Launch of VTS.
+2022-08-18T11:17:28	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-08-18T11:17:28	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-08-18T11:19:42	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T11:20:37	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T11:21:12	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T11:21:15	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T11:21:55	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T11:23:42	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T11:24:52	INFO	Validator	The project is valid
+2022-08-18T11:24:52	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T11:24:52	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T11:29:42	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T11:29:54	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T11:30:06	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T11:30:30	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T11:49:40	INFO	Updater	Checking for Update...
+2022-08-18T11:49:40	INFO	Updater	VTS is up-to-date !
+2022-08-18T14:43:42	INFO	Time & Options	Project dates updated.
+2022-08-18T14:43:45	INFO	Events	Error (CIC library) in file "Data/BE_Supaero_Cinematic_Plan_Events_MEM.txt": unknown protocol content EVENTS_LOG
+2022-08-18T14:43:50	INFO	Events	Error (CIC library) in file "Data/BE_Supaero_Cinematic_Plan_Events_MEM.txt": unknown protocol content EVENTS_LOG
+2022-08-18T14:47:30	INFO	Time & Options	Project dates updated.
+2022-08-18T14:47:32	INFO	Events	Error (CIC library) in file "Data/BE_Supaero_Cinematic_Plan_Events_MEM.txt": unknown protocol content OEF
+2022-08-18T14:48:05	INFO	Validator	The project is valid
+2022-08-18T14:49:18	INFO	Validator	The project is valid
+2022-08-18T14:49:19	INFO	Validator	The project is valid
+2022-08-18T14:49:19	INFO	Validator	Checking data files...
+2022-08-18T14:49:32	INFO	Validator	Error (CIC library) in file "Data/BE_Supaero_Cinematic_Plan_Events_MEM.txt": too many fields (@ character 26) (line 42)
+2022-08-18T14:49:46	INFO	Validator	Data files checking finished with errors
+2022-08-18T14:52:11	INFO	Time & Options	Project dates updated.
+2022-08-18T14:52:12	INFO	Events	Error (CIC library) in file "Data/BE_Supaero_Cinematic_Plan_Events_MEM.txt": expect USER_DEFINED_SIZE, but got TIME_SYSTEM (line 11)
+2022-08-18T14:52:25	INFO	Validator	The project is valid
+2022-08-18T14:52:27	INFO	Validator	The project is valid
+2022-08-18T14:52:27	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T14:52:27	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T15:05:53	INFO	Validator	The project is valid
+2022-08-18T15:05:55	INFO	Validator	The project is valid
+2022-08-18T15:05:55	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T15:05:55	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T15:20:43	INFO	Validator	The project is valid
+2022-08-18T15:20:43	INFO	Time & Options	Project dates updated.
+2022-08-18T15:21:06	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-08-18T15:21:19	INFO	Time & Options	Project dates updated.
+2022-08-18T15:21:21	INFO	Validator	The project is valid
+2022-08-18T15:21:30	INFO	Validator	The project is valid
+2022-08-18T15:21:30	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T15:21:30	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T15:22:16	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T15:22:18	INFO	Validator	The project is valid
+2022-08-18T15:22:28	INFO	Validator	The project is valid
+2022-08-18T15:22:28	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T15:22:28	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T18:28:17	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-08-18T18:28:17	INFO	Validator	The project is valid
+2022-08-18T18:28:17	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T18:28:17	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T18:29:38	INFO	Time & Options	Project dates updated.
+2022-08-18T18:29:40	INFO	Validator	The project is valid
+2022-08-18T18:29:41	INFO	Validator	The project is valid
+2022-08-18T18:29:41	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T18:29:41	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T18:36:42	INFO	Validator	The project is valid
+2022-08-18T18:36:42	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T18:36:42	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T19:16:33	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-08-18T19:16:33	INFO	Validator	The project is valid
+2022-08-18T19:16:33	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T19:16:33	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-18T19:19:02	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-08-18T19:19:02	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-18T19:19:02	INFO	VTS	End of VTS.
+2022-08-19T10:14:00	INFO	VTS	Launch of VTS.
+2022-08-19T10:14:13	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-08-19T10:14:14	INFO	Loader	Project loaded from revision 8200 by XmlReader v3.4
+2022-08-19T10:14:16	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-08-19T10:14:16	INFO	Loader	Project loaded from revision 8200 by XmlReader v3.4
+2022-08-19T10:14:35	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-08-19T10:14:35	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-08-19T10:14:40	INFO	Validator	The project is valid
+2022-08-19T10:14:40	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-19T10:14:40	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-19T10:21:22	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-19T10:21:24	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-19T10:21:44	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-19T10:22:10	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-19T10:56:48	INFO	Validator	The project is valid
+2022-08-19T10:56:48	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-19T10:56:48	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-19T11:12:27	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-19T14:02:46	INFO	Position/Orientation	Error (CIC library) in file "Data/BE_Supaero_Nadir_Law_AEM.txt": expect "date values", but found only two fields (last line)
+2022-08-19T14:02:46	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-08-19T14:02:46	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-19T14:02:50	INFO	Position/Orientation	Error (CIC library) in file "Data/BE_Supaero_Nadir_Law_AEM.txt": expect "date values", but found only two fields (last line)
+2022-08-19T14:02:50	INFO	Time & Options	Warning: No intersection of data date ranges. Check the data files currently in use.
+2022-08-19T14:02:51	INFO	Position/Orientation	Error (CIC library) in file "Data/BE_Supaero_Nadir_Law_AEM.txt": expect "date values", but found only two fields (last line)
+2022-08-19T14:06:08	INFO	Validator	The project is valid
+2022-08-19T14:06:10	INFO	Validator	The project is valid
+2022-08-19T14:06:10	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-19T14:06:10	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-19T14:09:55	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-19T14:10:09	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-19T17:48:59	INFO	Time & Options	Project dates updated.
+2022-08-19T17:49:00	INFO	Time & Options	Project dates updated.
+2022-08-19T17:49:03	INFO	Validator	The project is valid
+2022-08-19T17:49:04	INFO	Validator	The project is valid
+2022-08-19T17:49:04	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-19T17:49:04	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-08-19T17:56:36	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-08-19T17:56:37	INFO	VTS	End of VTS.
+2022-09-01T10:58:57	INFO	VTS	Launch of VTS.
+2022-09-01T10:59:45	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-01T10:59:45	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-01T10:59:49	INFO	Time & Options	Project dates updated.
+2022-09-01T10:59:50	INFO	Validator	The project is valid
+2022-09-01T10:59:50	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-01T10:59:50	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-01T11:01:43	INFO	VTS	End of VTS.
+2022-09-01T11:08:45	INFO	VTS	Launch of VTS.
+2022-09-01T11:08:51	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-01T11:08:51	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-01T11:09:07	INFO	Time & Options	Project dates updated.
+2022-09-01T11:09:15	INFO	Validator	The project is valid
+2022-09-01T11:09:15	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-01T11:09:15	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-01T11:13:56	INFO	VTS	End of VTS.
+2022-09-12T10:09:49	INFO	VTS	Launch of VTS.
+2022-09-12T10:09:55	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-12T10:09:55	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-12T10:09:56	INFO	Time & Options	Project dates updated.
+2022-09-12T10:09:57	INFO	Validator	The project is valid
+2022-09-12T10:09:57	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T10:09:57	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T10:11:59	INFO	VTS	End of VTS.
+2022-09-12T10:52:33	INFO	VTS	Launch of VTS.
+2022-09-12T10:52:49	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-12T10:52:49	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-12T10:53:47	INFO	Validator	The project is valid
+2022-09-12T10:53:47	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T10:53:47	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:00:39	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:00:42	INFO	Validator	The project is valid
+2022-09-12T11:00:42	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:00:42	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:02:41	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:02:43	INFO	Validator	The project is valid
+2022-09-12T11:02:43	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:02:43	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:05:12	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:05:13	INFO	Validator	The project is valid
+2022-09-12T11:05:13	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:05:13	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:06:11	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:06:13	INFO	Validator	The project is valid
+2022-09-12T11:06:13	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:06:13	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:08:43	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:08:52	INFO	Validator	The project is valid
+2022-09-12T11:08:52	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:08:52	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T11:10:43	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:11:07	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:11:21	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:11:24	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:11:28	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:11:49	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:11:58	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:12:09	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:12:28	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T11:13:25	INFO	VTS	End of VTS.
+2022-09-12T11:59:33	INFO	VTS	Launch of VTS.
+2022-09-12T11:59:54	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-12T11:59:57	INFO	Events	Error (CIC library) in file "Data/BE_Supaero_Cinematic_Plan_Events_MEM.txt": unexpected end of file (line 18)
+2022-09-12T12:00:16	INFO	Events	Error (CIC library) in file "Data/BE_Supaero_Cinematic_Plan_Events_MEM.txt": unexpected end of file (line 18)
+2022-09-12T12:00:16	INFO	Player	Fix errors before running visualization
+2022-09-12T12:00:20	INFO	Time & Options	Project dates updated.
+2022-09-12T12:16:06	INFO	Validator	The project is valid
+2022-09-12T12:16:07	INFO	Validator	The project is valid
+2022-09-12T12:16:07	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T12:16:07	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T12:17:31	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Satellite_OEM.txt
+2022-09-12T12:17:31	INFO	Position/Orientation	Error: This file doesn't exist: C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Nadir_Law_AEM.txt
+2022-09-12T12:17:31	INFO	Writer	Warning: The project contains errors, the file "Mission_VTS_File.vts" may be corrupted.
+2022-09-12T12:17:31	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T12:17:50	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T12:18:34	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-12T12:18:35	INFO	Validator	The project is valid
+2022-09-12T12:18:36	INFO	Validator	The project is valid
+2022-09-12T12:18:36	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T12:18:36	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-12T12:30:47	INFO	VTS	End of VTS.
+2022-09-15T13:56:21	INFO	VTS	Launch of VTS.
+2022-09-15T14:01:05	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-15T14:01:05	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-15T14:01:06	INFO	Validator	The project is valid
+2022-09-15T14:01:21	INFO	Validator	The project is valid
+2022-09-15T14:01:21	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-15T14:01:21	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-15T14:04:44	INFO	VTS	End of VTS.
+2022-09-15T14:49:27	INFO	VTS	Launch of VTS.
+2022-09-15T14:49:30	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-15T14:49:30	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-15T14:49:46	INFO	Validator	The project is valid
+2022-09-15T14:50:02	INFO	Validator	The project is valid
+2022-09-15T14:50:02	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-15T14:50:02	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-15T14:58:11	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-09-15T14:58:11	INFO	Validator	The project is valid
+2022-09-15T14:58:17	INFO	Time & Options	Project dates updated.
+2022-09-15T14:58:18	INFO	Validator	The project is valid
+2022-09-15T14:58:20	INFO	Validator	The project is valid
+2022-09-15T14:58:20	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-15T14:58:20	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-15T15:00:28	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-15T15:00:28	INFO	VTS	End of VTS.
+2022-09-15T15:00:35	INFO	VTS	Launch of VTS.
+2022-09-15T15:00:45	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-15T15:00:51	INFO	VTS	End of VTS.
+2022-09-16T10:55:43	INFO	VTS	Launch of VTS.
+2022-09-16T10:57:09	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-16T10:57:09	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-16T10:57:21	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-16T10:57:23	INFO	Validator	The project is valid
+2022-09-16T10:57:25	INFO	Time & Options	Project dates updated.
+2022-09-16T10:57:26	INFO	Validator	The project is valid
+2022-09-16T10:57:26	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-16T10:57:26	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-16T11:13:01	INFO	Validator	The project is valid
+2022-09-16T11:13:01	INFO	Validator	The project is valid
+2022-09-16T11:13:01	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-16T11:13:01	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-16T17:34:15	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-16T17:34:15	INFO	VTS	End of VTS.
+2022-09-21T14:21:01	INFO	VTS	Launch of VTS.
+2022-09-21T14:21:06	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-21T14:21:06	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-21T14:21:07	INFO	Validator	The project is valid
+2022-09-21T14:21:10	INFO	Time & Options	Project dates updated.
+2022-09-21T14:21:14	INFO	Validator	The project is valid
+2022-09-21T14:21:14	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-21T14:21:14	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-21T17:19:39	INFO	Validator	The project is valid
+2022-09-21T17:39:18	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-21T17:39:18	INFO	VTS	End of VTS.
+2022-09-22T11:18:58	INFO	VTS	Launch of VTS.
+2022-09-22T11:22:00	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-22T11:22:00	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-22T11:23:09	INFO	Validator	The project is valid
+2022-09-22T11:24:58	INFO	Time & Options	Project dates updated.
+2022-09-22T11:32:15	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-22T11:32:16	INFO	VTS	End of VTS.
+2022-09-23T10:34:07	INFO	VTS	Launch of VTS.
+2022-09-23T10:35:11	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-23T10:35:11	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-23T10:35:15	INFO	Time & Options	Project dates updated.
+2022-09-23T10:35:16	INFO	Validator	The project is valid
+2022-09-23T10:35:25	INFO	Validator	The project is valid
+2022-09-23T10:35:25	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-23T10:35:25	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-23T10:39:33	INFO	Time & Options	Project dates updated.
+2022-09-23T10:39:34	INFO	Validator	The project is valid
+2022-09-23T10:39:34	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-23T10:39:34	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-23T13:00:09	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2022-09-23T13:00:09	INFO	VTS	End of VTS.
+2022-09-23T14:44:46	INFO	VTS	Launch of VTS.
+2022-09-23T14:44:49	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-23T14:44:49	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-23T15:50:56	INFO	Validator	The project is valid
+2022-09-23T15:50:57	INFO	Validator	The project is valid
+2022-09-23T15:50:57	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-23T15:50:57	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-23T16:41:31	INFO	Validator	The project is valid
+2022-09-23T16:41:31	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-23T16:41:31	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-23T16:47:44	INFO	VTS	End of VTS.
+2022-09-30T16:42:36	INFO	VTS	Launch of VTS.
+2022-09-30T16:42:36	INFO	Updater	Can't check for updates
+2022-09-30T16:46:09	INFO	VTS	End of VTS.
+2022-09-30T17:04:39	INFO	VTS	Launch of VTS.
+2022-09-30T17:04:39	INFO	Updater	Can't check for updates
+2022-09-30T17:06:20	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-09-30T17:06:20	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-09-30T17:07:07	INFO	Validator	The project is valid
+2022-09-30T17:07:18	INFO	Time & Options	Project dates updated.
+2022-09-30T17:07:19	INFO	Time & Options	Project dates updated.
+2022-09-30T17:07:52	INFO	Validator	The project is valid
+2022-09-30T17:07:52	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-30T17:07:52	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-09-30T17:40:42	INFO	VTS	End of VTS.
+2022-10-10T17:24:43	INFO	VTS	Launch of VTS.
+2022-10-10T17:24:47	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-10-10T17:24:50	INFO	Validator	The project is valid
+2022-10-10T17:28:35	INFO	Validator	The project is valid
+2022-10-10T17:28:36	INFO	Time & Options	Project dates updated.
+2022-10-10T17:28:36	INFO	Validator	The project is valid
+2022-10-10T17:28:37	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-10-10T17:28:37	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-10-10T18:01:06	INFO	VTS	End of VTS.
+2022-10-12T15:49:42	INFO	VTS	Launch of VTS.
+2022-10-12T15:50:26	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-10-12T15:50:26	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-10-12T15:50:41	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2022-10-12T15:50:41	INFO	Validator	The project is valid
+2022-10-12T15:50:42	INFO	Time & Options	Project dates updated.
+2022-10-12T15:50:45	INFO	Validator	The project is valid
+2022-10-12T15:50:45	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-10-12T15:50:45	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-10-12T17:31:46	INFO	Validator	The project is valid
+2022-10-12T17:31:46	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-10-12T17:31:46	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-10-12T17:38:08	INFO	VTS	End of VTS.
+2022-10-12T17:47:05	INFO	VTS	Launch of VTS.
+2022-10-12T17:47:08	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-10-12T17:47:08	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-10-12T18:30:37	INFO	Time & Options	Project dates updated.
+2022-10-12T18:30:38	INFO	Position/Orientation	Error (CIC library) in file "Data/BE_Supaero_Nadir_Pointing_AEM.txt": expect "date values", but found only two fields (last line)
+2022-10-12T18:30:38	INFO	Time & Options	Warning: No intersection of data date ranges. Check the data files currently in use.
+2022-10-12T18:30:38	INFO	Validator	The project is valid
+2022-10-12T18:30:46	INFO	Time & Options	Project dates updated.
+2022-10-12T18:30:46	INFO	Time & Options	Project dates updated.
+2022-10-12T18:49:38	INFO	VTS	End of VTS.
+2022-10-14T13:20:37	INFO	VTS	Launch of VTS.
+2022-10-14T13:42:08	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-10-14T13:42:08	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-10-14T13:42:19	INFO	Validator	The project is valid
+2022-10-14T13:42:19	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-10-14T13:42:19	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-10-14T16:43:59	INFO	VTS	End of VTS.
+2022-10-24T10:15:47	INFO	VTS	Launch of VTS.
+2022-10-24T10:21:48	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-10-24T10:21:48	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-10-24T10:21:49	INFO	Validator	The project is valid
+2022-10-24T10:21:49	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-10-24T10:21:49	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-10-24T10:46:10	INFO	VTS	End of VTS.
+2022-11-17T16:01:13	INFO	VTS	Launch of VTS.
+2022-11-17T16:01:31	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-11-17T16:01:31	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-11-17T16:03:27	INFO	VTS	End of VTS.
+2022-11-23T11:06:01	INFO	VTS	Launch of VTS.
+2022-11-23T11:06:05	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-11-23T11:06:05	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-11-23T11:06:07	INFO	Validator	The project is valid
+2022-11-23T11:06:08	INFO	Time & Options	Project dates updated.
+2022-11-23T11:06:10	INFO	Validator	The project is valid
+2022-11-23T11:06:10	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-23T11:06:10	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-23T12:03:26	INFO	VTS	End of VTS.
+2022-11-30T18:06:22	INFO	VTS	Launch of VTS.
+2022-11-30T18:06:29	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2022-11-30T18:06:29	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2022-11-30T18:06:31	INFO	Validator	The project is valid
+2022-11-30T18:06:33	INFO	Time & Options	Project dates updated.
+2022-11-30T18:06:48	INFO	Validator	The project is valid
+2022-11-30T18:06:48	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T18:06:48	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T18:16:37	INFO	Validator	The project is valid
+2022-11-30T18:16:37	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T18:16:37	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T19:01:27	INFO	Validator	The project is valid
+2022-11-30T19:01:27	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T19:01:27	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T19:35:52	INFO	Time & Options	Project dates updated.
+2022-11-30T19:35:54	INFO	Validator	The project is valid
+2022-11-30T19:35:55	INFO	Validator	The project is valid
+2022-11-30T19:35:55	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T19:35:55	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T20:21:08	INFO	Validator	The project is valid
+2022-11-30T20:21:08	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T20:21:08	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T20:35:16	INFO	Time & Options	Project dates updated.
+2022-11-30T20:35:18	INFO	Validator	The project is valid
+2022-11-30T20:35:19	INFO	Validator	The project is valid
+2022-11-30T20:35:19	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T20:35:19	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T21:07:09	INFO	Validator	The project is valid
+2022-11-30T21:07:11	INFO	Time & Options	Project dates updated.
+2022-11-30T21:07:11	INFO	Validator	The project is valid
+2022-11-30T21:07:11	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T21:07:11	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T22:21:54	INFO	Time & Options	Project dates updated.
+2022-11-30T22:21:56	INFO	Validator	The project is valid
+2022-11-30T22:21:56	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T22:21:56	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2022-11-30T22:50:19	INFO	VTS	End of VTS.
+2023-01-04T09:19:51	INFO	VTS	Launch of VTS.
+2023-01-04T09:20:06	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2023-01-04T09:20:06	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-01-04T09:27:20	INFO	Time & Options	Project dates updated.
+2023-01-04T09:27:22	INFO	Validator	The project is valid
+2023-01-04T09:27:23	INFO	Validator	The project is valid
+2023-01-04T09:27:23	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-01-04T09:27:23	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-01-04T09:42:24	INFO	Time & Options	Project dates updated.
+2023-01-04T09:42:25	INFO	Validator	The project is valid
+2023-01-04T09:42:25	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-01-04T09:42:25	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-01-04T10:06:15	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-01-04T10:06:15	INFO	VTS	End of VTS.
+2023-02-03T10:50:49	INFO	VTS	Launch of VTS.
+2023-02-03T10:50:55	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2023-02-03T10:50:56	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-02-03T10:51:16	INFO	Validator	The project is valid
+2023-02-03T10:51:16	INFO	Writer	Project saved in C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-02-03T10:51:16	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Projet BE Patrius Supaero/Environnement de developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-02-03T10:56:46	INFO	VTS	End of VTS.
+2023-09-07T16:38:55	INFO	VTS	Launch of VTS.
+2023-09-07T16:38:56	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-09-07T16:39:15	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2023-09-07T16:39:15	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-09-07T16:39:18	INFO	Time & Options	Project dates updated.
+2023-09-07T16:39:19	INFO	Time & Options	Project dates updated.
+2023-09-07T16:39:21	INFO	Validator	The project is valid
+2023-09-07T16:39:22	INFO	Validator	The project is valid
+2023-09-07T16:39:23	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-07T16:39:23	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-07T16:46:11	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-07T16:46:12	INFO	VTS	End of VTS.
+2023-09-12T16:05:54	INFO	VTS	Launch of VTS.
+2023-09-12T16:05:54	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-09-12T16:05:57	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2023-09-12T16:05:57	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-09-12T16:06:01	INFO	Time & Options	Project dates updated.
+2023-09-12T16:06:02	INFO	Validator	The project is valid
+2023-09-12T16:06:02	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-12T16:06:02	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-12T16:32:46	INFO	Time & Options	Project dates updated.
+2023-09-12T16:32:46	INFO	Validator	The project is valid
+2023-09-12T16:32:46	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-12T16:32:46	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-12T16:57:42	INFO	Validator	The project is valid
+2023-09-12T16:57:42	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-12T16:57:42	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-12T17:41:24	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-12T17:41:24	INFO	VTS	End of VTS.
+2023-09-13T15:22:26	INFO	VTS	Launch of VTS.
+2023-09-13T15:22:27	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-09-13T15:22:29	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2023-09-13T15:22:29	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-09-13T15:22:58	INFO	VTS	End of VTS.
+2023-09-22T09:25:32	INFO	VTS	Launch of VTS.
+2023-09-22T09:25:32	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-09-22T09:25:37	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2023-09-22T09:25:37	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-09-22T09:34:36	INFO	Time & Options	Project dates updated.
+2023-09-22T09:34:40	INFO	Validator	The project is valid
+2023-09-22T09:34:40	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-22T09:34:40	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-22T10:27:25	INFO	Time & Options	Project dates updated.
+2023-09-22T10:27:26	INFO	Validator	The project is valid
+2023-09-22T10:27:26	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-22T10:27:26	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-22T10:36:09	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-22T10:36:09	INFO	VTS	End of VTS.
+2023-09-25T17:16:11	INFO	VTS	Launch of VTS.
+2023-09-25T17:16:11	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-09-25T17:16:14	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2023-09-25T17:16:14	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-09-25T17:16:17	INFO	Time & Options	Project dates updated.
+2023-09-25T17:16:17	INFO	Time & Options	Project dates updated.
+2023-09-25T17:16:18	INFO	Validator	The project is valid
+2023-09-25T17:16:33	INFO	Timeline	Warning: Data for CIC file "BE_Supaero_Cinematic_Plan_AEM.txt" will not be loaded and checked: file exceeds the 5MB load limit for Timeline items
+2023-09-25T17:16:33	INFO	Timeline	Warning: Data for CIC file "BE_Supaero_Nadir_Pointing_AEM.txt" will not be loaded and checked: file exceeds the 5MB load limit for Timeline items
+2023-09-25T17:16:33	INFO	Timeline	Timeline updated.
+2023-09-25T17:17:05	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-25T17:17:05	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-25T17:17:06	INFO	Validator	The project is valid
+2023-09-25T17:17:06	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-25T17:17:06	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-25T17:19:01	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-25T17:19:05	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-25T17:19:07	INFO	Validator	The project is valid
+2023-09-25T17:19:07	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-25T17:19:07	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-25T17:25:35	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-25T17:25:36	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-25T17:25:42	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-25T17:25:43	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-25T17:25:45	INFO	Time & Options	Project dates updated.
+2023-09-25T17:25:45	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-25T17:25:45	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-25T17:25:46	INFO	VTS	End of VTS.
+2023-09-27T15:34:13	INFO	VTS	Launch of VTS.
+2023-09-27T15:34:14	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-09-27T15:34:16	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2023-09-27T15:34:16	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-09-27T15:34:19	INFO	Time & Options	Project dates updated.
+2023-09-27T15:34:20	INFO	Validator	The project is valid
+2023-09-27T15:34:21	INFO	Validator	The project is valid
+2023-09-27T15:34:21	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-27T15:34:21	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-27T15:46:11	INFO	Time & Options	Project dates updated.
+2023-09-27T15:46:12	INFO	Validator	The project is valid
+2023-09-27T15:46:12	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-27T15:46:12	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-09-27T15:51:31	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-09-27T15:51:31	INFO	VTS	End of VTS.
+2023-10-31T13:18:17	INFO	VTS	Launch of VTS.
+2023-10-31T13:18:17	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-10-31T13:18:37	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2023-10-31T13:18:37	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-10-31T13:18:40	INFO	Time & Options	Project dates updated.
+2023-10-31T13:18:41	INFO	Validator	The project is valid
+2023-10-31T13:18:41	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-10-31T13:18:41	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-10-31T13:33:24	INFO	Time & Options	Project dates updated.
+2023-10-31T13:33:25	INFO	Validator	The project is valid
+2023-10-31T13:33:25	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-10-31T13:33:25	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-10-31T14:23:34	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2023-10-31T14:23:34	INFO	VTS	End of VTS.
+2023-12-05T13:55:19	INFO	VTS	Launch of VTS.
+2023-12-05T13:55:20	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-12-05T13:55:29	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-12-05T13:55:30	INFO	Time & Options	Project dates updated.
+2023-12-05T13:55:30	INFO	Time & Options	Project dates updated.
+2023-12-05T13:55:51	INFO	Validator	The project is valid
+2023-12-05T13:55:51	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-05T13:55:51	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-05T15:30:37	INFO	Time & Options	Project dates updated.
+2023-12-05T15:30:48	INFO	Validator	The project is valid
+2023-12-05T15:30:48	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-05T15:30:48	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-05T16:27:26	INFO	VTS	Launch of VTS.
+2023-12-05T16:27:26	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-12-05T16:27:29	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-12-05T16:27:32	INFO	Time & Options	Project dates updated.
+2023-12-05T16:27:33	INFO	Validator	The project is valid
+2023-12-05T16:27:33	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-05T16:27:33	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-05T16:28:42	INFO	VTS	End of VTS.
+2023-12-05T18:03:37	INFO	VTS	Launch of VTS.
+2023-12-05T18:03:38	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-12-05T18:03:43	INFO	VTS	End of VTS.
+2023-12-05T18:03:46	INFO	Time & Options	Project dates updated.
+2023-12-05T18:03:47	INFO	Time & Options	Project dates updated.
+2023-12-05T18:03:47	INFO	Time & Options	Project dates updated.
+2023-12-05T18:03:52	INFO	Validator	The project is valid
+2023-12-05T18:03:52	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-05T18:03:52	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-05T18:17:36	INFO	VTS	End of VTS.
+2023-12-21T14:27:05	INFO	VTS	Launch of VTS.
+2023-12-21T14:27:05	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2023-12-21T14:27:08	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2023-12-21T14:27:08	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2023-12-21T14:27:09	INFO	Time & Options	Project dates updated.
+2023-12-21T14:27:10	INFO	Validator	The project is valid
+2023-12-21T14:27:10	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-21T14:27:10	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-21T15:21:47	INFO	Time & Options	Project dates updated.
+2023-12-21T15:21:47	INFO	Time & Options	Project dates updated.
+2023-12-21T15:21:48	INFO	Validator	The project is valid
+2023-12-21T15:21:48	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-21T15:21:48	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-21T15:40:04	INFO	Time & Options	Project dates updated.
+2023-12-21T15:40:18	INFO	Validator	The project is valid
+2023-12-21T15:40:18	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-21T15:40:18	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-21T16:24:55	INFO	Time & Options	Project dates updated.
+2023-12-21T16:24:55	INFO	Time & Options	Project dates updated.
+2023-12-21T16:24:55	INFO	Validator	The project is valid
+2023-12-21T16:24:55	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-21T16:24:55	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2023-12-21T16:27:12	INFO	VTS	End of VTS.
+2024-09-20T15:24:42	INFO	VTS	Launch of VTS.
+2024-09-20T15:24:43	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2024-09-20T15:24:46	INFO	Loader	Error while opening project file C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts :
+Error: This file doesn't exist : C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement_evaluateur/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts
+2024-09-20T15:24:55	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2024-09-20T15:24:55	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2024-09-20T15:24:57	INFO	Time & Options	Project dates updated.
+2024-09-20T15:24:58	INFO	Validator	The project is valid
+2024-09-20T15:24:58	INFO	Writer	Project saved in C:/Users/herberl/Documents/Thales/Projet BE Prog Mission et Patrius/Edition_2024/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2024-09-20T15:24:58	INFO	Player	Start visualization of file C:/Users/herberl/Documents/Thales/Projet BE Prog Mission et Patrius/Edition_2024/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2024-09-20T15:28:31	INFO	VTS	End of VTS.
+2024-09-27T14:55:14	INFO	VTS	Launch of VTS.
+2024-09-27T14:55:15	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2024-09-27T14:57:29	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2024-09-27T14:57:29	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2024-09-27T15:00:31	INFO	Validator	The project is valid
+2024-09-27T15:04:01	INFO	Validator	The project is valid
+2024-09-27T15:04:01	INFO	Writer	Project saved in C:/Users/marer/OneDrive/Travail/SUPAERO-3A/COS/BE/COS303/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2024-09-27T15:04:01	INFO	Player	Start visualization of file C:/Users/marer/OneDrive/Travail/SUPAERO-3A/COS/BE/COS303/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2024-09-27T15:10:25	INFO	VTS	End of VTS.
+2024-09-28T21:14:24	INFO	VTS	Launch of VTS.
+2024-09-28T21:14:25	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2024-09-28T21:15:09	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2024-09-28T21:15:09	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2024-09-28T21:15:11	INFO	Validator	The project is valid
+2024-09-28T21:15:13	INFO	Validator	The project is valid
+2024-09-28T21:15:13	INFO	Writer	Project saved in C:/Users/marer/OneDrive/Travail/SUPAERO-3A/COS/BE/COS303/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2024-09-28T21:15:13	INFO	Player	Start visualization of file C:/Users/marer/OneDrive/Travail/SUPAERO-3A/COS/BE/COS303/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2024-09-28T21:17:37	INFO	VTS	End of VTS.
+2024-10-04T14:02:48	INFO	VTS	Launch of VTS.
+2024-10-04T14:02:49	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2024-10-04T14:03:35	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2024-10-04T14:03:35	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2024-10-04T14:03:39	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2024-10-04T14:03:39	INFO	Validator	The project is valid
+2024-10-04T14:03:41	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2024-10-04T14:03:41	INFO	Validator	The project is valid
+2024-10-04T14:03:41	INFO	Writer	Project saved in C:/Users/marer/OneDrive/Travail/SUPAERO-3A/COS/BE/COS303/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2024-10-04T14:03:41	INFO	Player	Start visualization of file C:/Users/marer/OneDrive/Travail/SUPAERO-3A/COS/BE/COS303/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2024-10-04T14:06:00	INFO	VTS	End of VTS.
+2024-10-05T00:59:19	INFO	VTS	Launch of VTS.
+2024-10-05T00:59:20	INFO	Updater	A new version of VTS is available, check for update in the Help menu
+2024-10-05T00:59:24	INFO	Logger	Application windows (size and position) were updated according to your configuration (Settings/Geometry).
+2024-10-05T00:59:24	INFO	Loader	Project loaded from revision 8680 by XmlReader v3.5
+2024-10-05T00:59:25	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2024-10-05T00:59:25	INFO	Validator	The project is valid
+2024-10-05T00:59:27	INFO	Time & Options	Warning: Insufficient data for the defined time interval. Consider using the compute dates button.
+2024-10-05T00:59:27	INFO	Validator	The project is valid
+2024-10-05T00:59:27	INFO	Writer	Project saved in C:/Users/marer/OneDrive/Travail/SUPAERO-3A/COS/BE/COS303/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2024-10-05T00:59:27	INFO	Player	Start visualization of file C:/Users/marer/OneDrive/Travail/SUPAERO-3A/COS/BE/COS303/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Mission_VTS_File.vts~
+2024-10-05T01:01:17	INFO	VTS	End of VTS.

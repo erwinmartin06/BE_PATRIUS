@@ -1,0 +1,22 @@
+About
+========================================
+
+Due to the nature of VTS, which deals with synchronization of client applications from various origins, several programming languages are used throughout the VTS toolkit. The following table lists these languages:
+
+- C++/Qt
+	- Main language of VTS. Used for GUIs of the Broker, the VTS configuration utility and SurfaceView.
+	- C++ is also the main language of the Celestia client application.
+- C  
+	- CIC/CCSDS file I/O library.
+- Tcl/Tk  
+	- PrestoPlot client application.
+	- VTS cross-platform toolkit launcher.
+- Lua  
+	- Interface scripting language in Celestia. Used by the VTS plugin for Celestia.
+- Java  
+	- Language of the Orekit library, used by the Keplerian generator.
+- Bash  
+	- Compilation and deployment scripts.
+	- Some basic client application launchers.
+- DOS Batch  
+	- Some basic client application launchers.

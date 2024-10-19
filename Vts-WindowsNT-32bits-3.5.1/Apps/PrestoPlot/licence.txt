@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+                               PrestoPlot Usage
+-------------------------------------------------------------------------------
+This PrestoPlot softwre is provided as an example of the VTS client 
+applications. Its usage is limited to the context of VTS visualizations. Any 
+PrestoPlot usage outside this scope and context is forbidden and subject to 
+licence.
+
+For more informations, please contact info@spacebel.be
+-------------------------------------------------------------------------------

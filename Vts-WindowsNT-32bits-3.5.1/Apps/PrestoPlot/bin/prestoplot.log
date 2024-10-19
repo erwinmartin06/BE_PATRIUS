@@ -1,0 +1,24 @@
+# Encoding :	cp1252
+##### WARNING #####
+# Illegal characters :
+#  'POINTS OF INTEREST_0' starts with or contains illegal characters, it has been updated with _'s - (POINTS_OF_INTEREST_0)
+###################
+##### WARNING #####
+# Illegal characters :
+#  'POINTS OF INTEREST_1' starts with or contains illegal characters, it has been updated with _'s - (POINTS_OF_INTEREST_1)
+###################
+##### WARNING #####
+# Illegal characters :
+#  'POINTS OF INTEREST_2' starts with or contains illegal characters, it has been updated with _'s - (POINTS_OF_INTEREST_2)
+###################
+##### ERROR #####
+# CCSDS Data Error :
+#  Error loading 'C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Target_Sites_POI.txt'
+#  'bad vector name "{POINTS": must contain digits, letters, underscore, or periodUnable to create BLT vector ::{POINTS.'
+###################
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Satellite_Trajectory_OEM.txt"
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Cinematic_Plan_AEM.txt"
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Cinematic_Plan_Events_MEM.txt"
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Satellite_Trajectory_OEM.txt"
+-load "C:/Users/herberl/Documents/Thales/Projet BE Patrius Supaero/Edition_2023/Environnement_de_developpement/Vts-WindowsNT-32bits-3.5.1/Data/BESupaero/Data/BE_Supaero_Nadir_Pointing_AEM.txt"
+-newgraph ""
