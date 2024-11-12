@@ -379,7 +379,6 @@ public class CompleteMission extends SimpleMission {
 	 */
 	private EventDetector createConstraintIlluminationDetector(Site targetSite) {
 		
-		
 		PVCoordinatesProvider target = new TopocentricFrame(this.getEarth(), targetSite.getPoint(), targetSite.getName());
 		EventDetector illuminationDetector = new ThreeBodiesAngleDetector(this.getEarth(), target,
 			this.getSun(), MathLib.toRadians(180-ConstantsBE.MAX_SUN_INCIDENCE_ANGLE), MAXCHECK_EVENTS, 

@@ -1,0 +1,334 @@
+[13:05:21] INFO BEProgMissionLogger | ##################################################
+[13:05:22] INFO BEProgMissionLogger | Complete simulation starting ...
+[13:05:22] INFO BEProgMissionLogger | CompleteMission [name=BE Supaero mission, startDate=2010-09-01T00:00:00.000, endDate=2010-09-08T00:00:00.000, satellite=Pleiades 1A]
+[13:05:22] INFO BEProgMissionLogger | ============= Computing Access Plan =============
+[13:05:22] INFO BEProgMissionLogger |  Site : PARIS
+[13:05:22] INFO BEProgMissionLogger | PARIS has not been serialized, launching access computation...
+[13:05:23] INFO BEProgMissionLogger | 
+PARIS
+[13:05:23] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:23] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:32.585 (UTC) ; 2010-09-01T07:11:32.657 (UTC) ]
+[13:05:23] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:31.717 (UTC) ; 2010-09-02T07:50:11.001 (UTC) ]
+[13:05:23] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:20.770 (UTC) ; 2010-09-04T07:29:19.424 (UTC) ]
+[13:05:23] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:32:09.093 (UTC) ; 2010-09-04T07:32:09.094 (UTC) ]
+[13:05:23] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:45.933 (UTC) ; 2010-09-06T07:11:23.868 (UTC) ]
+[13:05:23] INFO BEProgMissionLogger | 	|___________________________
+[13:05:23] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:23] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:32.585 (UTC) ; 2010-09-01T07:11:32.657 (UTC) ]
+[13:05:23] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:31.717 (UTC) ; 2010-09-02T07:50:11.001 (UTC) ]
+[13:05:23] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:20.770 (UTC) ; 2010-09-04T07:29:19.424 (UTC) ]
+[13:05:23] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:32:09.093 (UTC) ; 2010-09-04T07:32:09.094 (UTC) ]
+[13:05:23] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:45.933 (UTC) ; 2010-09-06T07:11:23.868 (UTC) ]
+[13:05:23] INFO BEProgMissionLogger | 	|___________________________
+[13:05:23] INFO BEProgMissionLogger | accesses/PARIS_562931739.ser has been serialized successfully !
+[13:05:23] INFO BEProgMissionLogger |  Site : MARSEILLE
+[13:05:23] INFO BEProgMissionLogger | MARSEILLE has not been serialized, launching access computation...
+[13:05:25] INFO BEProgMissionLogger | 
+MARSEILLE
+[13:05:25] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:25] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:30.719 (UTC) ; 2010-09-01T07:13:19.825 (UTC) ]
+[13:05:25] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:36.176 (UTC) ; 2010-09-03T06:54:01.292 (UTC) ]
+[13:05:25] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:34:08.140 (UTC) ; 2010-09-05T06:34:26.356 (UTC) ]
+[13:05:25] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:34.619 (UTC) ; 2010-09-06T07:12:20.268 (UTC) ]
+[13:05:25] INFO BEProgMissionLogger | 	|___________________________
+[13:05:25] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:25] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:30.719 (UTC) ; 2010-09-01T07:13:19.825 (UTC) ]
+[13:05:25] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:36.176 (UTC) ; 2010-09-03T06:54:01.292 (UTC) ]
+[13:05:25] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:34:08.140 (UTC) ; 2010-09-05T06:34:26.356 (UTC) ]
+[13:05:25] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:34.619 (UTC) ; 2010-09-06T07:12:20.268 (UTC) ]
+[13:05:25] INFO BEProgMissionLogger | 	|___________________________
+[13:05:25] INFO BEProgMissionLogger | accesses/MARSEILLE_562931739.ser has been serialized successfully !
+[13:05:25] INFO BEProgMissionLogger |  Site : LYON
+[13:05:25] INFO BEProgMissionLogger | LYON has not been serialized, launching access computation...
+[13:05:28] INFO BEProgMissionLogger | 
+LYON
+[13:05:28] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:28] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:56.731 (UTC) ; 2010-09-01T07:12:38.017 (UTC) ]
+[13:05:28] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:06.173 (UTC) ; 2010-09-03T06:53:14.169 (UTC) ]
+[13:05:28] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:53.627 (UTC) ; 2010-09-06T07:13:43.811 (UTC) ]
+[13:05:28] INFO BEProgMissionLogger | 	|___________________________
+[13:05:28] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:28] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:56.731 (UTC) ; 2010-09-01T07:12:38.017 (UTC) ]
+[13:05:28] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:06.173 (UTC) ; 2010-09-03T06:53:14.169 (UTC) ]
+[13:05:28] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:53.627 (UTC) ; 2010-09-06T07:13:43.811 (UTC) ]
+[13:05:28] INFO BEProgMissionLogger | 	|___________________________
+[13:05:28] INFO BEProgMissionLogger | accesses/LYON_562931739.ser has been serialized successfully !
+[13:05:28] INFO BEProgMissionLogger |  Site : TOULOUSE
+[13:05:28] INFO BEProgMissionLogger | TOULOUSE has not been serialized, launching access computation...
+[13:05:31] INFO BEProgMissionLogger | 
+TOULOUSE
+[13:05:31] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:31] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:55.871 (UTC) ; 2010-09-01T07:13:03.558 (UTC) ]
+[13:05:31] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:51:26.596 (UTC) ; 2010-09-03T06:53:16.707 (UTC) ]
+[13:05:31] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:29:43.211 (UTC) ; 2010-09-04T07:33:32.179 (UTC) ]
+[13:05:31] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:36.155 (UTC) ; 2010-09-06T07:14:29.131 (UTC) ]
+[13:05:31] INFO BEProgMissionLogger | 	|___________________________
+[13:05:31] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:31] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:55.871 (UTC) ; 2010-09-01T07:13:03.558 (UTC) ]
+[13:05:31] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:51:26.596 (UTC) ; 2010-09-03T06:53:16.707 (UTC) ]
+[13:05:31] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:29:43.211 (UTC) ; 2010-09-04T07:33:32.179 (UTC) ]
+[13:05:31] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:36.155 (UTC) ; 2010-09-06T07:14:29.131 (UTC) ]
+[13:05:31] INFO BEProgMissionLogger | 	|___________________________
+[13:05:31] INFO BEProgMissionLogger | accesses/TOULOUSE_562931739.ser has been serialized successfully !
+[13:05:31] INFO BEProgMissionLogger |  Site : NICE
+[13:05:31] INFO BEProgMissionLogger | NICE has not been serialized, launching access computation...
+[13:05:36] INFO BEProgMissionLogger | 
+NICE
+[13:05:36] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:36] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:16.969 (UTC) ; 2010-09-01T07:13:10.545 (UTC) ]
+[13:05:36] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:16.539 (UTC) ; 2010-09-03T06:53:59.141 (UTC) ]
+[13:05:36] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:31:26.222 (UTC) ; 2010-09-05T06:34:35.508 (UTC) ]
+[13:05:36] INFO BEProgMissionLogger | 	|___________________________
+[13:05:36] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:36] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:16.969 (UTC) ; 2010-09-01T07:13:10.545 (UTC) ]
+[13:05:36] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:16.539 (UTC) ; 2010-09-03T06:53:59.141 (UTC) ]
+[13:05:36] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:31:26.222 (UTC) ; 2010-09-05T06:34:35.508 (UTC) ]
+[13:05:36] INFO BEProgMissionLogger | 	|___________________________
+[13:05:36] INFO BEProgMissionLogger | accesses/NICE_562931739.ser has been serialized successfully !
+[13:05:36] INFO BEProgMissionLogger |  Site : NANTES
+[13:05:36] INFO BEProgMissionLogger | NANTES has not been serialized, launching access computation...
+[13:05:41] INFO BEProgMissionLogger | 
+NANTES
+[13:05:41] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:41] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:58.237 (UTC) ; 2010-09-02T07:51:51.665 (UTC) ]
+[13:05:41] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:54.784 (UTC) ; 2010-09-04T07:32:43.533 (UTC) ]
+[13:05:41] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:59.140 (UTC) ; 2010-09-06T07:13:25.476 (UTC) ]
+[13:05:41] INFO BEProgMissionLogger | 	|___________________________
+[13:05:41] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:41] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:58.237 (UTC) ; 2010-09-02T07:51:51.665 (UTC) ]
+[13:05:41] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:54.784 (UTC) ; 2010-09-04T07:32:43.533 (UTC) ]
+[13:05:41] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:59.140 (UTC) ; 2010-09-06T07:13:25.476 (UTC) ]
+[13:05:41] INFO BEProgMissionLogger | 	|___________________________
+[13:05:41] INFO BEProgMissionLogger | accesses/NANTES_562931739.ser has been serialized successfully !
+[13:05:41] INFO BEProgMissionLogger |  Site : STRASBOURG
+[13:05:41] INFO BEProgMissionLogger | STRASBOURG has not been serialized, launching access computation...
+[13:05:48] INFO BEProgMissionLogger | 
+STRASBOURG
+[13:05:48] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:48] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:07:59.523 (UTC) ; 2010-09-01T07:11:50.931 (UTC) ]
+[13:05:48] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:49:01.289 (UTC) ; 2010-09-03T06:52:35.820 (UTC) ]
+[13:05:48] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:30:12.642 (UTC) ; 2010-09-05T06:33:09.007 (UTC) ]
+[13:05:48] INFO BEProgMissionLogger | 	|___________________________
+[13:05:48] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:48] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:07:59.523 (UTC) ; 2010-09-01T07:11:50.931 (UTC) ]
+[13:05:48] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:49:01.289 (UTC) ; 2010-09-03T06:52:35.820 (UTC) ]
+[13:05:48] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:30:12.642 (UTC) ; 2010-09-05T06:33:09.007 (UTC) ]
+[13:05:48] INFO BEProgMissionLogger | 	|___________________________
+[13:05:48] INFO BEProgMissionLogger | accesses/STRASBOURG_562931739.ser has been serialized successfully !
+[13:05:48] INFO BEProgMissionLogger |  Site : MONTPELLIER
+[13:05:48] INFO BEProgMissionLogger | MONTPELLIER has not been serialized, launching access computation...
+[13:05:55] INFO BEProgMissionLogger | 
+MONTPELLIER
+[13:05:55] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:55] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:34.814 (UTC) ; 2010-09-01T07:13:13.578 (UTC) ]
+[13:05:55] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:46.807 (UTC) ; 2010-09-03T06:53:47.287 (UTC) ]
+[13:05:55] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:30.113 (UTC) ; 2010-09-06T07:14:20.784 (UTC) ]
+[13:05:55] INFO BEProgMissionLogger | 	|___________________________
+[13:05:55] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:05:55] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:34.814 (UTC) ; 2010-09-01T07:13:13.578 (UTC) ]
+[13:05:55] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:46.807 (UTC) ; 2010-09-03T06:53:47.287 (UTC) ]
+[13:05:55] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:30.113 (UTC) ; 2010-09-06T07:14:20.784 (UTC) ]
+[13:05:55] INFO BEProgMissionLogger | 	|___________________________
+[13:05:55] INFO BEProgMissionLogger | accesses/MONTPELLIER_562931739.ser has been serialized successfully !
+[13:05:55] INFO BEProgMissionLogger |  Site : BORDEAUX
+[13:05:55] INFO BEProgMissionLogger | BORDEAUX has not been serialized, launching access computation...
+[13:06:03] INFO BEProgMissionLogger | 
+BORDEAUX
+[13:06:03] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:03] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:10:07.010 (UTC) ; 2010-09-01T07:12:20.030 (UTC) ]
+[13:06:03] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:48:35.619 (UTC) ; 2010-09-02T07:52:22.869 (UTC) ]
+[13:06:03] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:29:27.477 (UTC) ; 2010-09-04T07:33:21.078 (UTC) ]
+[13:06:03] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:27.125 (UTC) ; 2010-09-06T07:14:09.377 (UTC) ]
+[13:06:03] INFO BEProgMissionLogger | 	|___________________________
+[13:06:03] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:03] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:10:07.010 (UTC) ; 2010-09-01T07:12:20.030 (UTC) ]
+[13:06:03] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:48:35.619 (UTC) ; 2010-09-02T07:52:22.869 (UTC) ]
+[13:06:03] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:29:27.477 (UTC) ; 2010-09-04T07:33:21.078 (UTC) ]
+[13:06:03] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:27.125 (UTC) ; 2010-09-06T07:14:09.377 (UTC) ]
+[13:06:03] INFO BEProgMissionLogger | 	|___________________________
+[13:06:03] INFO BEProgMissionLogger | accesses/BORDEAUX_562931739.ser has been serialized successfully !
+[13:06:03] INFO BEProgMissionLogger |  Site : LILLE
+[13:06:03] INFO BEProgMissionLogger | LILLE has not been serialized, launching access computation...
+[13:06:12] INFO BEProgMissionLogger | 
+LILLE
+[13:06:12] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:00.511 (UTC) ; 2010-09-01T07:11:04.942 (UTC) ]
+[13:06:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:46:56.981 (UTC) ; 2010-09-02T07:50:38.425 (UTC) ]
+[13:06:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:49:25.393 (UTC) ; 2010-09-03T06:51:22.422 (UTC) ]
+[13:06:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:27:46.391 (UTC) ; 2010-09-04T07:31:39.410 (UTC) ]
+[13:06:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:08:41.672 (UTC) ; 2010-09-06T07:12:32.452 (UTC) ]
+[13:06:12] INFO BEProgMissionLogger | 	|___________________________
+[13:06:12] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:00.511 (UTC) ; 2010-09-01T07:11:04.942 (UTC) ]
+[13:06:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:46:56.981 (UTC) ; 2010-09-02T07:50:38.425 (UTC) ]
+[13:06:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:49:25.393 (UTC) ; 2010-09-03T06:51:22.422 (UTC) ]
+[13:06:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:27:46.391 (UTC) ; 2010-09-04T07:31:39.410 (UTC) ]
+[13:06:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:08:41.672 (UTC) ; 2010-09-06T07:12:32.452 (UTC) ]
+[13:06:12] INFO BEProgMissionLogger | 	|___________________________
+[13:06:12] INFO BEProgMissionLogger | accesses/LILLE_562931739.ser has been serialized successfully !
+[13:06:12] INFO BEProgMissionLogger |  Site : RENNES
+[13:06:12] INFO BEProgMissionLogger | RENNES has not been serialized, launching access computation...
+[13:06:22] INFO BEProgMissionLogger | 
+RENNES
+[13:06:22] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:22] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:44.846 (UTC) ; 2010-09-02T07:51:38.606 (UTC) ]
+[13:06:22] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:42.403 (UTC) ; 2010-09-04T07:32:29.021 (UTC) ]
+[13:06:22] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:47.786 (UTC) ; 2010-09-06T07:13:09.497 (UTC) ]
+[13:06:22] INFO BEProgMissionLogger | 	|___________________________
+[13:06:22] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:22] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:44.846 (UTC) ; 2010-09-02T07:51:38.606 (UTC) ]
+[13:06:22] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:42.403 (UTC) ; 2010-09-04T07:32:29.021 (UTC) ]
+[13:06:22] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:47.786 (UTC) ; 2010-09-06T07:13:09.497 (UTC) ]
+[13:06:22] INFO BEProgMissionLogger | 	|___________________________
+[13:06:22] INFO BEProgMissionLogger | accesses/RENNES_562931739.ser has been serialized successfully !
+[13:06:22] INFO BEProgMissionLogger |  Site : REIMS
+[13:06:22] INFO BEProgMissionLogger | REIMS has not been serialized, launching access computation...
+[13:06:33] INFO BEProgMissionLogger | 
+REIMS
+[13:06:33] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:33] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:11.535 (UTC) ; 2010-09-01T07:11:34.838 (UTC) ]
+[13:06:33] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:49:27.762 (UTC) ; 2010-09-03T06:52:02.239 (UTC) ]
+[13:06:33] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:07.506 (UTC) ; 2010-09-04T07:31:55.585 (UTC) ]
+[13:06:33] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:08:59.519 (UTC) ; 2010-09-06T07:12:53.184 (UTC) ]
+[13:06:33] INFO BEProgMissionLogger | 	|___________________________
+[13:06:33] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:33] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:11.535 (UTC) ; 2010-09-01T07:11:34.838 (UTC) ]
+[13:06:33] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:49:27.762 (UTC) ; 2010-09-03T06:52:02.239 (UTC) ]
+[13:06:33] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:07.506 (UTC) ; 2010-09-04T07:31:55.585 (UTC) ]
+[13:06:33] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:08:59.519 (UTC) ; 2010-09-06T07:12:53.184 (UTC) ]
+[13:06:33] INFO BEProgMissionLogger | 	|___________________________
+[13:06:33] INFO BEProgMissionLogger | accesses/REIMS_562931739.ser has been serialized successfully !
+[13:06:33] INFO BEProgMissionLogger |  Site : LE HAVRE
+[13:06:33] INFO BEProgMissionLogger | LE HAVRE has not been serialized, launching access computation...
+[13:06:45] INFO BEProgMissionLogger | 
+LE HAVRE
+[13:06:45] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:45] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:54.721 (UTC) ; 2010-09-01T07:10:57.455 (UTC) ]
+[13:06:45] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:18.251 (UTC) ; 2010-09-02T07:51:10.393 (UTC) ]
+[13:06:45] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:12.781 (UTC) ; 2010-09-04T07:32:04.597 (UTC) ]
+[13:06:45] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:13.914 (UTC) ; 2010-09-06T07:12:50.105 (UTC) ]
+[13:06:45] INFO BEProgMissionLogger | 	|___________________________
+[13:06:45] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:45] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:54.721 (UTC) ; 2010-09-01T07:10:57.455 (UTC) ]
+[13:06:45] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:18.251 (UTC) ; 2010-09-02T07:51:10.393 (UTC) ]
+[13:06:45] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:12.781 (UTC) ; 2010-09-04T07:32:04.597 (UTC) ]
+[13:06:45] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:13.914 (UTC) ; 2010-09-06T07:12:50.105 (UTC) ]
+[13:06:45] INFO BEProgMissionLogger | 	|___________________________
+[13:06:45] INFO BEProgMissionLogger | accesses/LE HAVRE_562931739.ser has been serialized successfully !
+[13:06:45] INFO BEProgMissionLogger |  Site : SAINT-ETIENNE
+[13:06:45] INFO BEProgMissionLogger | SAINT-ETIENNE has not been serialized, launching access computation...
+[13:06:58] INFO BEProgMissionLogger | 
+SAINT-ETIENNE
+[13:06:58] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:58] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:04.475 (UTC) ; 2010-09-01T07:12:42.782 (UTC) ]
+[13:06:58] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:15.602 (UTC) ; 2010-09-03T06:53:17.044 (UTC) ]
+[13:06:58] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:59.637 (UTC) ; 2010-09-06T07:13:50.686 (UTC) ]
+[13:06:58] INFO BEProgMissionLogger | 	|___________________________
+[13:06:58] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:06:58] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:04.475 (UTC) ; 2010-09-01T07:12:42.782 (UTC) ]
+[13:06:58] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:15.602 (UTC) ; 2010-09-03T06:53:17.044 (UTC) ]
+[13:06:58] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:59.637 (UTC) ; 2010-09-06T07:13:50.686 (UTC) ]
+[13:06:58] INFO BEProgMissionLogger | 	|___________________________
+[13:06:58] INFO BEProgMissionLogger | accesses/SAINT-ETIENNE_562931739.ser has been serialized successfully !
+[13:06:58] INFO BEProgMissionLogger |  Site : TOULON
+[13:06:58] INFO BEProgMissionLogger | TOULON has not been serialized, launching access computation...
+[13:07:12] INFO BEProgMissionLogger | 
+TOULON
+[13:07:12] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:07:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:30.898 (UTC) ; 2010-09-01T07:13:22.390 (UTC) ]
+[13:07:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:34.235 (UTC) ; 2010-09-03T06:54:06.458 (UTC) ]
+[13:07:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:31:50.108 (UTC) ; 2010-09-05T06:34:35.877 (UTC) ]
+[13:07:12] INFO BEProgMissionLogger | 	|___________________________
+[13:07:12] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:07:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:30.898 (UTC) ; 2010-09-01T07:13:22.390 (UTC) ]
+[13:07:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:34.235 (UTC) ; 2010-09-03T06:54:06.458 (UTC) ]
+[13:07:12] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:31:50.108 (UTC) ; 2010-09-05T06:34:35.877 (UTC) ]
+[13:07:12] INFO BEProgMissionLogger | 	|___________________________
+[13:07:12] INFO BEProgMissionLogger | accesses/TOULON_562931739.ser has been serialized successfully !
+[13:07:12] INFO BEProgMissionLogger |  Site : GRENOBLE
+[13:07:12] INFO BEProgMissionLogger | GRENOBLE has not been serialized, launching access computation...
+[13:07:26] INFO BEProgMissionLogger | 
+GRENOBLE
+[13:07:26] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:07:26] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:00.713 (UTC) ; 2010-09-01T07:12:48.591 (UTC) ]
+[13:07:26] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:06.364 (UTC) ; 2010-09-03T06:53:29.413 (UTC) ]
+[13:07:26] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:33:42.562 (UTC) ; 2010-09-05T06:33:54.281 (UTC) ]
+[13:07:26] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:02.948 (UTC) ; 2010-09-06T07:12:54.344 (UTC) ]
+[13:07:26] INFO BEProgMissionLogger | 	|___________________________
+[13:07:26] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:07:26] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:00.713 (UTC) ; 2010-09-01T07:12:48.591 (UTC) ]
+[13:07:26] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:06.364 (UTC) ; 2010-09-03T06:53:29.413 (UTC) ]
+[13:07:26] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:33:42.562 (UTC) ; 2010-09-05T06:33:54.281 (UTC) ]
+[13:07:26] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:02.948 (UTC) ; 2010-09-06T07:12:54.344 (UTC) ]
+[13:07:26] INFO BEProgMissionLogger | 	|___________________________
+[13:07:26] INFO BEProgMissionLogger | accesses/GRENOBLE_562931739.ser has been serialized successfully !
+[13:07:26] INFO BEProgMissionLogger |  Site : DIJON
+[13:07:26] INFO BEProgMissionLogger | DIJON has not been serialized, launching access computation...
+[13:07:42] INFO BEProgMissionLogger | 
+DIJON
+[13:07:42] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:07:42] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:32.632 (UTC) ; 2010-09-01T07:12:11.491 (UTC) ]
+[13:07:42] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:49:42.543 (UTC) ; 2010-09-03T06:52:46.701 (UTC) ]
+[13:07:42] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:28.003 (UTC) ; 2010-09-06T07:13:19.688 (UTC) ]
+[13:07:42] INFO BEProgMissionLogger | 	|___________________________
+[13:07:42] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:07:42] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:08:32.632 (UTC) ; 2010-09-01T07:12:11.491 (UTC) ]
+[13:07:42] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:49:42.543 (UTC) ; 2010-09-03T06:52:46.701 (UTC) ]
+[13:07:42] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:28.003 (UTC) ; 2010-09-06T07:13:19.688 (UTC) ]
+[13:07:42] INFO BEProgMissionLogger | 	|___________________________
+[13:07:42] INFO BEProgMissionLogger | accesses/DIJON_562931739.ser has been serialized successfully !
+[13:07:42] INFO BEProgMissionLogger |  Site : ANGERS
+[13:07:42] INFO BEProgMissionLogger | ANGERS has not been serialized, launching access computation...
+[13:07:59] INFO BEProgMissionLogger | 
+ANGERS
+[13:07:59] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:07:59] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:33.674 (UTC) ; 2010-09-01T07:11:27.197 (UTC) ]
+[13:07:59] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:52.288 (UTC) ; 2010-09-02T07:51:43.898 (UTC) ]
+[13:07:59] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:46.618 (UTC) ; 2010-09-04T07:32:38.625 (UTC) ]
+[13:07:59] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:48.178 (UTC) ; 2010-09-06T07:13:24.010 (UTC) ]
+[13:07:59] INFO BEProgMissionLogger | 	|___________________________
+[13:07:59] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:07:59] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:33.674 (UTC) ; 2010-09-01T07:11:27.197 (UTC) ]
+[13:07:59] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:52.288 (UTC) ; 2010-09-02T07:51:43.898 (UTC) ]
+[13:07:59] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:46.618 (UTC) ; 2010-09-04T07:32:38.625 (UTC) ]
+[13:07:59] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:48.178 (UTC) ; 2010-09-06T07:13:24.010 (UTC) ]
+[13:07:59] INFO BEProgMissionLogger | 	|___________________________
+[13:07:59] INFO BEProgMissionLogger | accesses/ANGERS_562931739.ser has been serialized successfully !
+[13:07:59] INFO BEProgMissionLogger |  Site : LE MANS
+[13:07:59] INFO BEProgMissionLogger | LE MANS has not been serialized, launching access computation...
+[13:08:16] INFO BEProgMissionLogger | 
+LE MANS
+[13:08:17] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:08:17] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:12.721 (UTC) ; 2010-09-01T07:11:28.305 (UTC) ]
+[13:08:17] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:42.583 (UTC) ; 2010-09-02T07:51:32.421 (UTC) ]
+[13:08:17] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:35.630 (UTC) ; 2010-09-04T07:32:28.771 (UTC) ]
+[13:08:17] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:35.548 (UTC) ; 2010-09-06T07:13:16.144 (UTC) ]
+[13:08:17] INFO BEProgMissionLogger | 	|___________________________
+[13:08:17] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:08:17] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:12.721 (UTC) ; 2010-09-01T07:11:28.305 (UTC) ]
+[13:08:17] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-02T07:47:42.583 (UTC) ; 2010-09-02T07:51:32.421 (UTC) ]
+[13:08:17] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-04T07:28:35.630 (UTC) ; 2010-09-04T07:32:28.771 (UTC) ]
+[13:08:17] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:09:35.548 (UTC) ; 2010-09-06T07:13:16.144 (UTC) ]
+[13:08:17] INFO BEProgMissionLogger | 	|___________________________
+[13:08:17] INFO BEProgMissionLogger | accesses/LE MANS_562931739.ser has been serialized successfully !
+[13:08:17] INFO BEProgMissionLogger |  Site : AIX-EN-PROVENCE
+[13:08:17] INFO BEProgMissionLogger | AIX-EN-PROVENCE has not been serialized, launching access computation...
+[13:08:35] INFO BEProgMissionLogger | 
+AIX-EN-PROVENCE
+[13:08:35] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:08:35] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:26.838 (UTC) ; 2010-09-01T07:13:15.883 (UTC) ]
+[13:08:35] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:32.269 (UTC) ; 2010-09-03T06:53:57.331 (UTC) ]
+[13:08:35] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:34:01.071 (UTC) ; 2010-09-05T06:34:22.485 (UTC) ]
+[13:08:35] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:30.598 (UTC) ; 2010-09-06T07:12:22.290 (UTC) ]
+[13:08:35] INFO BEProgMissionLogger | 	|___________________________
+[13:08:35] INFO BEProgMissionLogger | 	|____ Printing Timeline ____
+[13:08:35] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-01T07:09:26.838 (UTC) ; 2010-09-01T07:13:15.883 (UTC) ]
+[13:08:35] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-03T06:50:32.269 (UTC) ; 2010-09-03T06:53:57.331 (UTC) ]
+[13:08:35] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-05T06:34:01.071 (UTC) ; 2010-09-05T06:34:22.485 (UTC) ]
+[13:08:35] INFO BEProgMissionLogger | 	| Satellite visibility and illumination and no dazzling [ 2010-09-06T07:10:30.598 (UTC) ; 2010-09-06T07:12:22.290 (UTC) ]
+[13:08:35] INFO BEProgMissionLogger | 	|___________________________
+[13:08:35] INFO BEProgMissionLogger | accesses/AIX-EN-PROVENCE_562931739.ser has been serialized successfully !
+[13:08:35] INFO BEProgMissionLogger | Access plan : {AIX-EN-PROVENCE=fr.cnes.sirius.patrius.events.postprocessing.Timeline@37052337, RENNES=fr.cnes.sirius.patrius.events.postprocessing.Timeline@2320fa6f, DIJON=fr.cnes.sirius.patrius.events.postprocessing.Timeline@7a560583, LYON=fr.cnes.sirius.patrius.events.postprocessing.Timeline@4d722ac9, TOULOUSE=fr.cnes.sirius.patrius.events.postprocessing.Timeline@53f0a4cb, LE MANS=fr.cnes.sirius.patrius.events.postprocessing.Timeline@77a7cf58, BORDEAUX=fr.cnes.sirius.patrius.events.postprocessing.Timeline@3d97a632, SAINT-ETIENNE=fr.cnes.sirius.patrius.events.postprocessing.Timeline@616fe72b, MONTPELLIER=fr.cnes.sirius.patrius.events.postprocessing.Timeline@37efd131, LE HAVRE=fr.cnes.sirius.patrius.events.postprocessing.Timeline@7e7b159b, PARIS=fr.cnes.sirius.patrius.events.postprocessing.Timeline@7e5d9a50, LILLE=fr.cnes.sirius.patrius.events.postprocessing.Timeline@60957c0f, MARSEILLE=fr.cnes.sirius.patrius.events.postprocessing.Timeline@293a5f75, NANTES=fr.cnes.sirius.patrius.events.postprocessing.Timeline@fcb4004, GRENOBLE=fr.cnes.sirius.patrius.events.postprocessing.Timeline@1dd6d4b7, TOULON=fr.cnes.sirius.patrius.events.postprocessing.Timeline@56e8b606, NICE=fr.cnes.sirius.patrius.events.postprocessing.Timeline@2dd29a59, ANGERS=fr.cnes.sirius.patrius.events.postprocessing.Timeline@784c3487, STRASBOURG=fr.cnes.sirius.patrius.events.postprocessing.Timeline@53142455, REIMS=fr.cnes.sirius.patrius.events.postprocessing.Timeline@40dff0b7}
+[13:08:35] INFO BEProgMissionLogger | ============= Computing Observation Plan =============
+[13:08:35] INFO BEProgMissionLogger | Current target site : AIX-EN-PROVENCE
+[13:08:35] INFO BEProgMissionLogger | ] 2010-09-01T07:10:00.838 ; 2010-09-01T07:13:49.883 [
