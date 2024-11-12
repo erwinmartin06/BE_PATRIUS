@@ -16,6 +16,7 @@ import fr.cnes.sirius.patrius.attitudes.AttitudeLeg;
 import fr.cnes.sirius.patrius.attitudes.AttitudeProvider;
 import fr.cnes.sirius.patrius.attitudes.ConstantSpinSlew;
 import fr.cnes.sirius.patrius.attitudes.StrictAttitudeLegsSequence;
+import fr.cnes.sirius.patrius.attitudes.TargetGroundPointing;
 import fr.cnes.sirius.patrius.events.CodedEvent;
 import fr.cnes.sirius.patrius.events.CodedEventsLogger;
 import fr.cnes.sirius.patrius.events.GenericCodingEventDetector;
@@ -791,8 +792,9 @@ public class CompleteMission extends SimpleMission {
 	 * 
 	 * @param target Input target {@link Site}
 	 * @return An {@link AttitudeLawLeg} adapted to the observation.
-	 */
-	private AttitudeLaw createObservationLaw(Site target) {
+		 * @throws PatriusException 
+		 */
+		private AttitudeLaw createObservationLaw(Site target) throws PatriusException {
 		/**
 		 * To perform an observation, the satellite needs to point the target for a
 		 * fixed duration.
@@ -810,7 +812,15 @@ public class CompleteMission extends SimpleMission {
 		/*
 		 * Complete the code below to create your observation law and return it
 		 */
-		return null;
+
+		// Getting the target GeodeticPoint
+		AttitudeLaw observationLaw = new TargetGroundPointing
+		(this.getEarth(), 
+		target.getPoint().getZenith(), 
+		this.getSatellite().getSensorAxis(), 
+		this.getSatellite().getFrameYAxis());
+
+		return observationLaw;
 	}
 
 	/**
