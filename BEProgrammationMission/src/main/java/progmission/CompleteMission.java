@@ -2,7 +2,9 @@ package progmission;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
@@ -28,7 +30,10 @@ import fr.cnes.sirius.patrius.events.postprocessing.Timeline;
 import fr.cnes.sirius.patrius.events.sensor.SensorVisibilityDetector;
 import fr.cnes.sirius.patrius.frames.FramesFactory;
 import fr.cnes.sirius.patrius.frames.TopocentricFrame;
+import fr.cnes.sirius.patrius.frames.transformations.Transform;
+import fr.cnes.sirius.patrius.math.geometry.euclidean.threed.Vector3D;
 import fr.cnes.sirius.patrius.math.util.MathLib;
+import fr.cnes.sirius.patrius.orbits.pvcoordinates.PVCoordinates;
 import fr.cnes.sirius.patrius.orbits.pvcoordinates.PVCoordinatesProvider;
 import fr.cnes.sirius.patrius.propagation.analytical.KeplerianPropagator;
 import fr.cnes.sirius.patrius.propagation.events.ConstantRadiusProvider;
@@ -558,6 +563,16 @@ public class CompleteMission extends SimpleMission {
 		 * which is the basis of the creation of AttitudeLawLeg objects since you need
 		 * an AbsoluteDateInterval or two AbsoluteDates to do it.
 		 */
+		
+		double stepWindow = 5.001; // in seconds, we take .001 to avoid issues with open intervals
+		
+		// The idea is first to create an array which will contain all observations.
+		// For each city, we have several timelines. For each timeline, we will compute different observation windows of 10s, by using a sliding
+		// window of 5s. 
+		// Then, we will have many possible observation intervals. We store them in the array allObservationArray, and we will sort them by
+		// decreasing score.
+		List<Object[]> allObservationsArray = new ArrayList<>(); // array which will contain all possible observations : target, obs, score
+		
 		for (final Entry<Site, Timeline> entry : this.accessPlan.entrySet()) {
 			// Scrolling through the entries of the accessPlan
 			// Getting the target Site
@@ -567,91 +582,51 @@ public class CompleteMission extends SimpleMission {
 			final Timeline timeline = entry.getValue();
 			// Getting the access intervals
 			final AbsoluteDateIntervalsList accessIntervals = new AbsoluteDateIntervalsList();
+			// Create the observation law for the current target
+			final AttitudeLaw observationLaw = createObservationLaw(target);
+			
 			for (final Phenomenon accessWindow : timeline.getPhenomenaList()) {
+				int timelineCount = 1;
 				// The Phenomena are sorted chronologically so the accessIntervals List is too
 				final AbsoluteDateInterval accessInterval = accessWindow.getTimespan();
 				accessIntervals.add(accessInterval);
+				final List<AbsoluteDate> middleDateList = accessInterval.getDateList(stepWindow); //we obtain the middle of intervals
+				//logger.info(middleDateList.toString());
 				logger.info(accessInterval.toString());
-
-				// Use this method to create your observation leg, see more help inside the
-				// method.
-				final AttitudeLaw observationLaw = createObservationLaw(target);
-
-				/**
-				 * Now that you have your observation law, you can compute at any AbsoluteDate
-				 * the Attitude of your Satellite pointing the target (using the getAttitude()
-				 * method). You can use those Attitudes to compute the duration of a slew from
-				 * one Attitude to another, for example the duration of the slew from the
-				 * Attitude at the end of an observation to the Atittude at the start of the
-				 * next one. That's how you will be able to choose a valid AbsoluteDateInterval
-				 * during which the observation will actually be performed, lasting
-				 * ConstantsBE.INTEGRATION_TIME seconds. When you have your observation
-				 * interval, you can build an AttitudeLawLeg using the observationLaw and this
-				 * interval and finally add this leg to the observation plan.
-				 */
-				/*
-				 * Here is an example of how to compute an Attitude. You need a
-				 * PVCoordinatePropagator (which we provide we the method
-				 * SimpleMission#createDefaultPropagator()), an AbsoluteDate and a Frame (which
-				 * we provide with this.getEME2000()).
-				 */
-				// Getting the begining/end of the accessIntervall as AbsoluteDate objects
-				final AbsoluteDate date1 = accessInterval.getLowerData();
-				final AbsoluteDate date2 = accessInterval.getUpperData();
-				final Attitude attitude1 = observationLaw.getAttitude(this.createDefaultPropagator(), date1,
-						this.getEme2000());
-				final Attitude attitude2 = observationLaw.getAttitude(this.createDefaultPropagator(), date2,
-						this.getEme2000());
-				/*
-				 * Now here is an example of code showing how to compute the duration of the
-				 * slew from attitude1 to attitude2 Here we compare two Attitudes coming from
-				 * the same AttitudeLaw which is a TargetGroundPointing so the
-				 */
-				final double slew12Duration = this.getSatellite().computeSlewDuration(attitude1, attitude2);
-				logger.info("Maximum possible duration of the slew : " + slew12Duration);
-				final double actualDuration = date2.durationFrom(date1);
-				logger.info("Actual duration of the slew : " + actualDuration);
-				/**
-				 * Of course, here the actual duration is less than the maximum possible
-				 * duration because the TargetGroundPointing mode is a very slow one and the
-				 * Satellite is very agile. But sometimes when trying to perform a slew from one
-				 * target to another, you will find that the Satellite doesn't have enough time,
-				 * then you need to either translate one of the observations or just don't
-				 * perform one of the observation.
-				 */
-
-				/**
-				 * Let's say after comparing several observation slews, you find a valid couple
-				 * of dates defining your observation window : {obsStart;obsEnd}, with
-				 * obsEnd.durationFrom(obsStart) == ConstantsBE.INTEGRATION_TIME.
-				 * 
-				 * Then you can use those dates to create your AtittudeLawLeg that you will
-				 * insert inside the observaiton pla, for this target. Reminder : only one
-				 * observation in the observation plan per target !
-				 * 
-				 * WARNING : what we do here doesn't work, we didn't check that there wasn't
-				 * another target observed while inserting this target observation, it's up to
-				 * you to build your observation plan using the methods and tips we provide. You
-				 * can also only insert one observation for each pass of the satellite and it's
-				 * fine.
-				 */
-				// Here we use the middle of the accessInterval to define our dates of
-				// observation
-				final AbsoluteDate middleDate = accessInterval.getMiddleDate();
-				final AbsoluteDate obsStart = middleDate.shiftedBy(-ConstantsBE.INTEGRATION_TIME / 2);
-				final AbsoluteDate obsEnd = middleDate.shiftedBy(ConstantsBE.INTEGRATION_TIME / 2);
-				final AbsoluteDateInterval obsInterval = new AbsoluteDateInterval(obsStart, obsEnd);
-				// Then, we create our AttitudeLawLeg, that we name using the name of the target
-				final String legName = "OBS_" + target.getName();
-				final AttitudeLawLeg obsLeg = new AttitudeLawLeg(observationLaw, obsInterval, legName);
-
-				// Finally, we add our leg to the plan
-				this.observationPlan.put(target, obsLeg);
-
+				
+				for (int i = 0; i < middleDateList.size() - 1; i++) { // we don't take the last interval because it can last less than 10s
+		            final AbsoluteDate middleDate = middleDateList.get(i);
+		            final AbsoluteDate obsStart = middleDate.shiftedBy(-ConstantsBE.INTEGRATION_TIME / 2);
+					final AbsoluteDate obsEnd = middleDate.shiftedBy(ConstantsBE.INTEGRATION_TIME / 2);
+					final AbsoluteDateInterval obsInterval = new AbsoluteDateInterval(obsStart, obsEnd);
+					// Then, we create our AttitudeLawLeg, that we name using the name of the target
+					final String legName = "OBS_" + timelineCount + "_" + i + "_" + target.getName();
+					final AttitudeLawLeg obsLeg = new AttitudeLawLeg(observationLaw, obsInterval, legName);
+					// We compute the score of the observation
+					final double scoreObs = MathLib.cos(getEffectiveIncidence(target, obsLeg)) * target.getScore();
+					allObservationsArray.add(new Object[]{target, obsLeg, scoreObs});
+				}
+				timelineCount++;
 			}
-
+			
 		}
-
+		// We sort the observations in descending order of score.
+		allObservationsArray.sort((record1, record2) -> Double.compare((double) record2[2], (double) record1[2]));
+		
+		logger.info("Size of total array : " + allObservationsArray.size());
+		// We print the observation with the highest score (1st in the array)
+		Object[] firstRecord = allObservationsArray.get(0);
+		Site target = (Site) firstRecord[0];
+	    AttitudeLawLeg observationLaw = (AttitudeLawLeg) firstRecord[1];
+	    AbsoluteDateInterval dateInterval = observationLaw.getTimeInterval();
+	    double score = (double) firstRecord[2];
+		
+        System.out.println("Target: " + target + ", Interval: " + dateInterval + ", Score: " + score);
+        
+        // Next step of the code : use allObservationArray to compute the observation plan, by prioritizing the highest scores.
+		
+        // TO COMPLETE
+        
 		return this.observationPlan;
 	}
 
@@ -820,6 +795,60 @@ public class CompleteMission extends SimpleMission {
 			);
 		
 		return observationLaw;
+	}
+	
+	/**
+	 * [DO NOT MODIFY THIS METHOD]
+	 * 
+	 * Computes and returns the angle of incidence (satellite->nadir ;
+	 * satellite->target) at the middle date of the input observation.
+	 * (same method as in SimpleMission)
+	 * 
+	 * @param site              Input {@link Site} associated with the
+	 *                          {@link AttitudeLawLeg}.
+	 * @param observationLawLeg Observation law leg to evaluate. It should be a
+	 *                          {@link TargetGroundPointing} targeting a given
+	 *                          {@link Site}, and we are going to measure the angle
+	 *                          of incidence of the {@link Site}with respect to
+	 *                          nadir direction at the middle date of the
+	 *                          observation {@link AttitudeLawLeg}.
+	 * @return The angle of incidence at the middle date of the input law, as a
+	 *         double.
+	 * @throws PatriusException If an error occurs during the propagation.
+	 */
+	private double getEffectiveIncidence(Site site, AttitudeLawLeg observationLawLeg) throws PatriusException {
+		// Getting the middleDate, IE the date of the middle of the observation that we
+		// are going to use to check the incidence angle.
+		final AbsoluteDate middleDate = observationLawLeg.getTimeInterval().getMiddleDate();
+
+		// Creating a new propagator to compute the satellite's pv coordinates
+		final KeplerianPropagator propagator = createDefaultPropagator();
+
+		// Calculating the satellite PVCoordinates at middleDate
+		final PVCoordinates satPv = propagator.getPVCoordinates(middleDate, this.getEme2000());
+
+		// Calculating the Site PVCoordinates at middleDate
+		final TopocentricFrame siteFrame = new TopocentricFrame(this.getEarth(), site.getPoint(), site.getName());
+		final PVCoordinates sitePv = siteFrame.getPVCoordinates(middleDate, this.getEme2000());
+
+		// Calculating the normalized site-sat vector at middleDate
+		final Vector3D siteSatVectorEme2000 = satPv.getPosition().subtract(sitePv.getPosition()).normalize();
+
+		// Calculating the vector normal to the surface at the Site at middleDate
+		final Vector3D siteNormalVectorEarthFrame = siteFrame.getZenith();
+		final Transform earth2Eme2000 = siteFrame.getParentShape().getBodyFrame().getTransformTo(this.getEme2000(), middleDate);
+		final Vector3D siteNormalVectorEme2000 = earth2Eme2000.transformPosition(siteNormalVectorEarthFrame);
+
+		// Finally, we can compute the incidence angle = angle between
+		// siteNormalVectorEme2000 and siteSatVectorEme2000
+		final double incidenceAngle = Vector3D.angle(siteNormalVectorEme2000, siteSatVectorEme2000);
+
+		logger.info("Site : " + site.getName() + " " + site.getPoint().toString());
+		logger.info("Incidence angle rad : " + incidenceAngle);
+		logger.info("Incidence angle deg : " + MathLib.toDegrees(incidenceAngle));
+
+		return incidenceAngle;
+
 	}
 
 	/**
