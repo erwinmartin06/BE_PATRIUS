@@ -613,6 +613,55 @@ public class CompleteMission extends SimpleMission {
 		// We sort the observations in descending order of score.
 		allObservationsArray.sort((record1, record2) -> Double.compare((double) record2[2], (double) record1[2]));
 		
+		// Next step of the code : use allObservationArray to compute the observation plan, by prioritizing the highest scores.
+		List<String> observedSitesList = new ArrayList<>(); //List which will contain the already observed sites
+		final double maxSlewDuration = this.getSatellite().getMaxSlewDuration();
+		
+		outerLoop:
+		for (Object[] obs : allObservationsArray) {
+            Site currentTarget = (Site) obs[0];
+            AttitudeLawLeg currentObsLeg = (AttitudeLawLeg) obs[1];
+            AbsoluteDateInterval currentInterval = currentObsLeg.getTimeInterval();
+            AbsoluteDate currentStartInterval = currentInterval.getLowerData();
+            AbsoluteDate currentEndInterval = currentInterval.getUpperData();
+      
+            // First condition : the site should not have been already observed
+            if (observedSitesList.contains(currentTarget.getName())) {
+            	continue;
+            }
+            
+            for (AttitudeLawLeg otherObsLeg : observationPlan.values()) {
+            	AbsoluteDateInterval otherInterval = otherObsLeg.getTimeInterval();
+            	AbsoluteDate otherStartInterval = otherInterval.getLowerData();
+                AbsoluteDate otherEndInterval = otherInterval.getUpperData();
+                
+            	// Second condition : it should be the only observation during this interval
+            	if (otherInterval.getIntersectionWith(currentInterval)!=null) {
+            		System.out.println("Intersection non vide détectée");
+            		continue outerLoop;
+            	}
+            	// Third condition : the slew duration must be upper than the time between observations
+            	
+            	System.out.println("Timing 1 : " + otherStartInterval.durationFrom(currentEndInterval));
+            	if (Math.abs(otherStartInterval.durationFrom(currentEndInterval)) < maxSlewDuration) {
+            		System.out.println("Duration condition");
+            		continue outerLoop;
+            	}
+            	
+            	
+            	System.out.println("Timing 2 : " + currentStartInterval.durationFrom(otherEndInterval));
+            	if (Math.abs(currentStartInterval.durationFrom(otherEndInterval)) < maxSlewDuration) {
+            		continue outerLoop;
+            	}
+            	
+            }
+            System.out.println("Insertion");
+            observedSitesList.add(currentTarget.getName());
+            this.observationPlan.put(currentTarget, currentObsLeg);
+            
+   
+		}
+		//
 		logger.info("Size of total array : " + allObservationsArray.size());
 		// We print the observation with the highest score (1st in the array)
 		Object[] firstRecord = allObservationsArray.get(0);
@@ -622,8 +671,9 @@ public class CompleteMission extends SimpleMission {
 	    double score = (double) firstRecord[2];
 		
         System.out.println("Target: " + target + ", Interval: " + dateInterval + ", Score: " + score);
+        System.out.println("Max slew duration :" + maxSlewDuration);
         
-        // Next step of the code : use allObservationArray to compute the observation plan, by prioritizing the highest scores.
+        
 		
         // TO COMPLETE
         
@@ -789,10 +839,7 @@ public class CompleteMission extends SimpleMission {
 		 */
 		AttitudeLaw observationLaw = new TargetGroundPointing(
 			    this.getEarth(),
-			    target.getPoint().getZenith(),
-			    this.getSatellite().getSensorAxis(),
-			    this.getSatellite().getFrameYAxis()
-			);
+			    target.getPoint());
 		
 		return observationLaw;
 	}
@@ -843,9 +890,9 @@ public class CompleteMission extends SimpleMission {
 		// siteNormalVectorEme2000 and siteSatVectorEme2000
 		final double incidenceAngle = Vector3D.angle(siteNormalVectorEme2000, siteSatVectorEme2000);
 
-		logger.info("Site : " + site.getName() + " " + site.getPoint().toString());
-		logger.info("Incidence angle rad : " + incidenceAngle);
-		logger.info("Incidence angle deg : " + MathLib.toDegrees(incidenceAngle));
+		//logger.info("Site : " + site.getName() + " " + site.getPoint().toString());
+		//logger.info("Incidence angle rad : " + incidenceAngle);
+		//logger.info("Incidence angle deg : " + MathLib.toDegrees(incidenceAngle));
 
 		return incidenceAngle;
 
