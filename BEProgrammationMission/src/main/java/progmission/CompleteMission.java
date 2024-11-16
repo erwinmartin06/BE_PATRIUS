@@ -4,9 +4,11 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 
@@ -87,7 +89,8 @@ public class CompleteMission extends SimpleMission {
 	 * guidance law of each observation. This object corresponds to the observation
 	 * plan, which will be computed in the computeObservationPlan() method.
 	 */
-	private final Map<Site, AttitudeLawLeg> observationPlan;
+	//private final Map<Site, AttitudeLawLeg> observationPlan;
+	private Map<Site, AttitudeLawLeg> observationPlan;
 
 	/**
 	 * {@link StrictAttitudeLegsSequence} representing the cinematic plan during the
@@ -564,20 +567,21 @@ public class CompleteMission extends SimpleMission {
 		 * an AbsoluteDateInterval or two AbsoluteDates to do it.
 		 */
 		
-		double stepWindow = 5.001; // in seconds, we take .001 to avoid issues with open intervals
+		double stepWindow = 5.001; // in seconds. We take .001 to avoid issues with open intervals
 		
 		// The idea is first to create an array which will contain all observations.
 		// For each city, we have several timelines. For each timeline, we will compute different observation windows of 10s, by using a sliding
 		// window of 5s. 
 		// Then, we will have many possible observation intervals. We store them in the array allObservationArray, and we will sort them by
 		// decreasing score.
+		
 		List<Object[]> allObservationsArray = new ArrayList<>(); // array which will contain all possible observations : target, obs, score
 		
 		for (final Entry<Site, Timeline> entry : this.accessPlan.entrySet()) {
 			// Scrolling through the entries of the accessPlan
 			// Getting the target Site
 			final Site target = entry.getKey();
-			logger.info("Current target site : " + target.getName());
+			//logger.info("Current target site : " + target.getName());
 			// Getting its access Timeline
 			final Timeline timeline = entry.getValue();
 			// Getting the access intervals
@@ -592,7 +596,7 @@ public class CompleteMission extends SimpleMission {
 				accessIntervals.add(accessInterval);
 				final List<AbsoluteDate> middleDateList = accessInterval.getDateList(stepWindow); //we obtain the middle of intervals
 				//logger.info(middleDateList.toString());
-				logger.info(accessInterval.toString());
+				//logger.info(accessInterval.toString());
 				
 				for (int i = 0; i < middleDateList.size() - 1; i++) { // we don't take the last interval because it can last less than 10s
 		            final AbsoluteDate middleDate = middleDateList.get(i);
@@ -615,67 +619,91 @@ public class CompleteMission extends SimpleMission {
 		
 		// Next step of the code : use allObservationArray to compute the observation plan, by prioritizing the highest scores.
 		List<String> observedSitesList = new ArrayList<>(); //List which will contain the already observed sites
-		final double maxSlewDuration = this.getSatellite().getMaxSlewDuration();
 		
 		outerLoop:
 		for (Object[] obs : allObservationsArray) {
             Site currentTarget = (Site) obs[0];
-            AttitudeLawLeg currentObsLeg = (AttitudeLawLeg) obs[1];
-            AbsoluteDateInterval currentInterval = currentObsLeg.getTimeInterval();
-            AbsoluteDate currentStartInterval = currentInterval.getLowerData();
-            AbsoluteDate currentEndInterval = currentInterval.getUpperData();
       
             // First condition : the site should not have been already observed
             if (observedSitesList.contains(currentTarget.getName())) {
             	continue;
             }
             
+            AttitudeLawLeg currentObsLeg = (AttitudeLawLeg) obs[1];
+            AbsoluteDateInterval currentInterval = currentObsLeg.getTimeInterval();
+            AbsoluteDate currentStartInterval = currentInterval.getLowerData();
+            AbsoluteDate currentEndInterval = currentInterval.getUpperData();
+            
+            Attitude currentStartIntervalAttitude = currentObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), currentStartInterval,
+            		this.getEme2000());
+            Attitude currentEndIntervalAttitude = currentObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), currentEndInterval,
+            		this.getEme2000());
+            logger.info("---------------------------------------------");
+            logger.info("Trying to insert " + currentTarget.getName() + " : " + currentInterval + " in the observation plan...");
+            
             for (AttitudeLawLeg otherObsLeg : observationPlan.values()) {
             	AbsoluteDateInterval otherInterval = otherObsLeg.getTimeInterval();
             	AbsoluteDate otherStartInterval = otherInterval.getLowerData();
                 AbsoluteDate otherEndInterval = otherInterval.getUpperData();
+                logger.info("-");
+                logger.info("Testing compatibility with " + otherObsLeg.getNature() + " : " + otherInterval);
                 
             	// Second condition : it should be the only observation during this interval
             	if (otherInterval.getIntersectionWith(currentInterval)!=null) {
-            		System.out.println("Intersection non vide détectée");
+            		logger.info("Non-empty intersection detected : insertion cancelled");
             		continue outerLoop;
             	}
+            	logger.info("Intersection non-empty : OK");
             	// Third condition : the slew duration must be upper than the time between observations
             	
-            	System.out.println("Timing 1 : " + otherStartInterval.durationFrom(currentEndInterval));
-            	if (Math.abs(otherStartInterval.durationFrom(currentEndInterval)) < maxSlewDuration) {
-            		System.out.println("Duration condition");
+            	Attitude otherStartIntervalAttitude = otherObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), otherStartInterval,
+                		this.getEme2000());
+            	double slewDurationRight = this.getSatellite().computeSlewDuration(currentEndIntervalAttitude, otherStartIntervalAttitude);
+            	
+            	//logger.info("Right delta_T : " + Math.abs(otherStartInterval.durationFrom(currentEndInterval)));
+            	//logger.info("Right slew duration :" + slewDurationRight);
+            	if (Math.abs(otherStartInterval.durationFrom(currentEndInterval)) < slewDurationRight) {
+            		logger.info("Too short duration with the next observation : insertion cancelled");
             		continue outerLoop;
             	}
-            	
-            	
-            	System.out.println("Timing 2 : " + currentStartInterval.durationFrom(otherEndInterval));
-            	if (Math.abs(currentStartInterval.durationFrom(otherEndInterval)) < maxSlewDuration) {
+        
+            	Attitude otherEndIntervalAttitude = otherObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), otherEndInterval,
+                		this.getEme2000());
+            	double slewDurationLeft = this.getSatellite().computeSlewDuration(otherEndIntervalAttitude, currentStartIntervalAttitude);
+         
+            	//logger.info("Left delta_T : " + Math.abs(currentStartInterval.durationFrom(otherEndInterval)));
+            	//logger.info("Left slew duration :" + slewDurationLeft);
+            	if (Math.abs(currentStartInterval.durationFrom(otherEndInterval)) < slewDurationLeft) {
+            		logger.info("Too short duration with the previous observation : insertion cancelled");
             		continue outerLoop;
             	}
+            	logger.info("Enough time between the 2 observations : OK");
             	
             }
-            System.out.println("Insertion");
+            logger.info("-");
+            logger.info("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Successful insertion of " + currentTarget.getName() + ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+            logger.info("-");
             observedSitesList.add(currentTarget.getName());
             this.observationPlan.put(currentTarget, currentObsLeg);
             
-   
 		}
+		
 		//
-		logger.info("Size of total array : " + allObservationsArray.size());
-		// We print the observation with the highest score (1st in the array)
-		Object[] firstRecord = allObservationsArray.get(0);
-		Site target = (Site) firstRecord[0];
-	    AttitudeLawLeg observationLaw = (AttitudeLawLeg) firstRecord[1];
-	    AbsoluteDateInterval dateInterval = observationLaw.getTimeInterval();
-	    double score = (double) firstRecord[2];
-		
-        System.out.println("Target: " + target + ", Interval: " + dateInterval + ", Score: " + score);
-        System.out.println("Max slew duration :" + maxSlewDuration);
-        
-        
-		
-        // TO COMPLETE
+		//logger.info("Size of total array : " + allObservationsArray.size());
+		this.observationPlan = this.observationPlan.entrySet()
+			    .stream()
+			    .sorted((entry1, entry2) -> {
+			        // Comparaison basée sur les bornes inférieures des intervalles de temps
+			        AbsoluteDateInterval interval1 = entry1.getValue().getTimeInterval();
+			        AbsoluteDateInterval interval2 = entry2.getValue().getTimeInterval();
+			        return interval1.getLowerData().compareTo(interval2.getLowerData());
+			    })
+			    .collect(Collectors.toMap(
+			        Map.Entry::getKey,
+			        Map.Entry::getValue,
+			        (e1, e2) -> e1, // Résolution des collisions (non applicable ici)
+			        LinkedHashMap::new // Maintient l'ordre des éléments triés
+			    ));
         
 		return this.observationPlan;
 	}
@@ -741,53 +769,72 @@ public class CompleteMission extends SimpleMission {
 		 * before. We know we have to the time to perform the slew thanks to the
 		 * cinematic checks we already did during the observation plan computation.
 		 */
-		// Getting the Paris Site
-		final Site paris = this.getSiteList().get(0);
-		// Getting the associated observation leg defined previously
-		final AttitudeLeg parisObsLeg = observationPlan.get(paris);
-
+		
 		// Getting our nadir law
 		final AttitudeLaw nadirLaw = this.getSatellite().getDefaultAttitudeLaw();
+		//Getting the propagator
+		final KeplerianPropagator propagator = this.createDefaultPropagator();
 
 		// Getting all the dates we need to compute our slews
 		final AbsoluteDate start = this.getStartDate();
 		final AbsoluteDate end = this.getEndDate();
-		final AbsoluteDate obsStart = parisObsLeg.getDate();
-		final AbsoluteDate obsEnd = parisObsLeg.getEnd();
-
-		// For the slew nadir => paris and paris => nadir, we will use the maximum
-		// duration because we have a lot of time here. In practice, you will use either
-		// the maximum possible time if you have nothing else planned around or the
-		// available time coming from the duration until next observation programmed.
-		final AbsoluteDate endNadirLaw1 = obsStart.shiftedBy(-getSatellite().getMaxSlewDuration());
-		final AbsoluteDate startNadirLaw2 = obsEnd.shiftedBy(+getSatellite().getMaxSlewDuration());
-
-		// The propagator will be used to compute Attitudes
-		final KeplerianPropagator propagator = this.createDefaultPropagator();
-
-		// Computing the Attitudes used to compute the slews
-		final Attitude startObsAttitude = parisObsLeg.getAttitude(propagator, obsStart, getEme2000());
-		final Attitude endObsAttitude = parisObsLeg.getAttitude(propagator, obsEnd, getEme2000());
+		
+		// Get the first observation
+		Site firstSite = observationPlan.keySet().iterator().next();
+		AttitudeLeg firstObsLeg = observationPlan.get(firstSite);
+		
+		final AbsoluteDate firstObsStart = firstObsLeg.getDate();
+		final Attitude startFirstObsAttitude = firstObsLeg.getAttitude(propagator, firstObsStart, getEme2000());
+		
+		logger.info("caca " + this.getSatellite().getMaxSlewDuration());
+		final AbsoluteDate endNadirLaw1 = firstObsStart.shiftedBy(-getSatellite().getMaxSlewDuration());
 		final Attitude endNadir1Attitude = nadirLaw.getAttitude(propagator, endNadirLaw1, getEme2000());
-		final Attitude startNadir2Attitude = nadirLaw.getAttitude(propagator, startNadirLaw2, getEme2000());
-
-		// Finally computing the slews
-		// From nadir law 1 to Paris observation
-		final ConstantSpinSlew slew1 = new ConstantSpinSlew(endNadir1Attitude, startObsAttitude, "Slew_Nadir_to_Paris");
-		// From Paris observation to nadir law 2
-		final ConstantSpinSlew slew2 = new ConstantSpinSlew(endObsAttitude, startNadir2Attitude, "Slew_Paris_to_Nadir");
-
-		// We create our two Nadir legs using the dates we computed
 		final AttitudeLawLeg nadir1 = new AttitudeLawLeg(nadirLaw, start, endNadirLaw1, "Nadir_Law_1");
-		final AttitudeLawLeg nadir2 = new AttitudeLawLeg(nadirLaw, startNadirLaw2, end, "Nadir_Law_2");
-
-		// Finally we can add all those legs to our cinametic plan, in the chronological
-		// order
+		final ConstantSpinSlew slew1 = new ConstantSpinSlew(endNadir1Attitude, startFirstObsAttitude, "Slew_Nadir_to_" + firstSite.getName());
+			
+		
 		this.cinematicPlan.add(nadir1);
 		this.cinematicPlan.add(slew1);
-		this.cinematicPlan.add(parisObsLeg);
-		this.cinematicPlan.add(slew2);
-		this.cinematicPlan.add(nadir2);
+		this.cinematicPlan.add(firstObsLeg);
+		
+		int i = 1;
+		for (Map.Entry<Site, AttitudeLawLeg> entry : observationPlan.entrySet()) {
+			Site site = entry.getKey();
+			if (site.getName().equals(firstSite.getName())) {
+				continue;
+			}
+			AttitudeLeg obsLeg = observationPlan.get(site);
+			AbsoluteDate startObsLeg = obsLeg.getDate();
+			Attitude startObsAttitude = obsLeg.getAttitude(propagator, startObsLeg, getEme2000());
+			AbsoluteDate endPreviousObsLeg = firstObsLeg.getEnd();
+			Attitude endPreviousObsAttitude = firstObsLeg.getAttitude(propagator, endPreviousObsLeg, getEme2000());
+			
+			if (startObsLeg.durationFrom(endPreviousObsLeg) > 2 * this.getSatellite().getMaxSlewDuration()) {
+				final AbsoluteDate startNadirLaw = endPreviousObsLeg.shiftedBy(getSatellite().getMaxSlewDuration());
+				final AbsoluteDate endNadirLaw = startObsLeg.shiftedBy(-getSatellite().getMaxSlewDuration());
+				
+				final Attitude startNadirAttitude = nadirLaw.getAttitude(propagator, startNadirLaw, getEme2000());
+				final Attitude endNadirAttitude = nadirLaw.getAttitude(propagator, endNadirLaw, getEme2000());
+				
+				final AttitudeLawLeg nadir = new AttitudeLawLeg(nadirLaw, startNadirLaw, endNadirLaw, "Nadir_Law_to_" + site.getName()  );
+				
+				final ConstantSpinSlew slewToNadir = new ConstantSpinSlew(endPreviousObsAttitude, startNadirAttitude, "Slew_to_Nadir");
+				final ConstantSpinSlew slewFromNadir = new ConstantSpinSlew(endNadirAttitude, startObsAttitude, "Slew_from_Nadir_to" + site.getName());
+				this.cinematicPlan.add(slewToNadir);
+				this.cinematicPlan.add(nadir);
+				this.cinematicPlan.add(slewFromNadir);
+				this.cinematicPlan.add(obsLeg);
+				
+			}
+			else {
+				
+				final ConstantSpinSlew slew = new ConstantSpinSlew(endPreviousObsAttitude, startObsAttitude, "Slew_to_" + site.getName());
+				this.cinematicPlan.add(slew);
+				this.cinematicPlan.add(obsLeg);
+			}	
+			firstObsLeg = obsLeg;
+		}
+		
 
 		/**
 		 * Now your job is finished, the two following methods will finish the job for
