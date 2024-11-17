@@ -180,8 +180,6 @@ public class CompleteMission extends SimpleMission {
 	}
 
 	/**
-	 * [COMPLETE THIS METHOD TO ACHIEVE YOUR PROJECT]
-	 * 
 	 * This method should compute the input {@link Site}'s access {@link Timeline}.
 	 * That is to say the {@link Timeline} which contains all the {@link Phenomenon}
 	 * respecting the access conditions for this site : good visibility + corrrect
@@ -196,220 +194,232 @@ public class CompleteMission extends SimpleMission {
 	 * @throws PatriusException If a {@link PatriusException} occurs.
 	 */
 	private Timeline createSiteAccessTimeline(Site targetSite) throws PatriusException {
-
+		
+		// Creating the global timeline, which takes into account the 3 constraints.
 		Timeline siteAccessTimeline = createSiteGlobalTimeline(targetSite);
 
-		// Define and use your own criteria, here is an example (use the right strings
-		// defined when naming the phenomenon in the GenericCodingEventDetector)
+		// First criterion : we create a new phenomenon including these two conditions : satellite visibility and illumination
 		final AndCriterion andCriterion = new AndCriterion("Satellite visibility", "Illumination",
 				"Satellite visibility and illumination", "Comment about this phenomenon");
-		// Applying our criterion adds all the new phenonmena inside the global timeline
+		
+		// Applying our first criterion in order to add all the new phenonmena inside the global timeline
 		andCriterion.applyTo(siteAccessTimeline);
 		
+		// Second criterion : we create a new phenomenon including this condition : no dazzling
+		final NotCriterion notCriterion = new NotCriterion("Dazzling", "No dazzling", "Comment") ;
 		
-		final NotCriterion notCriterion = new NotCriterion("Dazzling",
-				"No dazzling", "Comment") ;
-				
+		// Applying our second criterion in order to add all the new phenonmena inside the global timeline		
 		notCriterion.applyTo(siteAccessTimeline);
 		
+		// Third criterion : we create a new phenomenon including these three conditions : satellite visibility and illumination and no dazzling
 		final AndCriterion andCriterion2 = new AndCriterion("Satellite visibility and illumination", "No dazzling",
 				"Satellite visibility and illumination and no dazzling", "Comment about this phenomenon");
-		// Applying our criterion adds all the new phenonmena inside the global timeline
+		
+		// Applying our third criterion in order to add all the new phenonmena inside the global timeline	
 		andCriterion2.applyTo(siteAccessTimeline);
 
-		// Then create an ElementTypeFilter that will filter all phenomenon not
-		// respecting the input condition you gave it
+		// Then, creating an ElementTypeFilter that will only keep the phenomenon "Satellite visibility and illumination and no dazzling"
 		final ElementTypeFilter obsConditionFilter = new ElementTypeFilter(
 				"Satellite visibility and illumination and no dazzling", false);
 		
-		// Finally, we filter the global timeline to keep only X1 AND X2 phenomena
+		// Finally, we filter the global timeline to keep only the phenomenon "Satellite visibility and illumination and no dazzling" : this is 
+		// our final timeline.
 		obsConditionFilter.applyTo(siteAccessTimeline);
-
-		/*
-		 * Now make sure your globalTimeline represents the access Timeline for the
-		 * input target Site and it's done ! You can print the Timeline using the
-		 * utility module of the BE as below
-		 */
-
-		// Log the final access timeline associated to the current target
+		
+		// We log the final access timeline associated to the current target
 		logger.info("\n" + targetSite.getName());
 		ProjectUtils.printTimeline(siteAccessTimeline);
 
 		return siteAccessTimeline;
 	}
-
+	
+	/**
+	 * This method compute a {@link Timeline} object which encapsulates all
+	 * the {@link Phenomenon} corresponding to the following phenomena : 
+	 * satellite visibility, illumination and dazzling, relative to
+	 * the input target {@link Site}.
+	 * 
+	 * @param targetSite Input target {@link Site}
+	 * @return The {@link Timeline} containing all the {@link Phenomenon} relative
+	 *         to these 3 phenomena.
+	 * @throws PatriusException If a {@link PatriusException} occurs when creating
+	 *                          the {@link Timeline}.
+	 */
 	private Timeline createSiteGlobalTimeline(Site targetSite) throws PatriusException {
+		/**
+		 * We decided to directly calculate a global timeline which encapsulates the 3 phenomena, 
+		 * in order to propagate only once per Site, with the three detectors attached to the 
+		 * propagator. We did this to gain computation time.
+		 */
 		
+		// Taking a new local propagator for the site, in order to gain computation time.
 		final KeplerianPropagator localPropagator = this.createDefaultPropagator();
 		
+		//////////////////// VISIBILITY DETECTOR ///////////////////////////////
+		
+		// Creating the visibility detector and adding it to the propagator.
 		final EventDetector constraintVisibilityDetector = createConstraintVisibilityDetector(targetSite);
-
 		localPropagator.addEventDetector(constraintVisibilityDetector);
-
+		
+		// Creating the associated CodedEventLogger and plugging it to the visibility detector. 
 		final GenericCodingEventDetector codingEventVisibilityDetector = new GenericCodingEventDetector(constraintVisibilityDetector,
 				"Start of satellite visibility", "End of satellite visibility", true, "Satellite visibility");
 		final CodedEventsLogger eventVisibilityLogger = new CodedEventsLogger();
 		final EventDetector eventVisibilityDetector = eventVisibilityLogger.monitorDetector(codingEventVisibilityDetector);
-		// Then you add your logger to the propagator, it will monitor the event coded
-		// by the codingEventDetector
+		
+		// Adding the logger to the propagator, in order to monitor the event coded by the codingEventDetector
 		localPropagator.addEventDetector(eventVisibilityDetector);
-
-//////////////////////////////////////////////////
-
+		
+		//////////////////// ILLUMINATION DETECTOR ///////////////////////////////
+		
+		// Creating the illumination detector and adding it to the propagator.
 		final EventDetector constraintIlluminationDetector = createConstraintIlluminationDetector(targetSite);
-
 		localPropagator.addEventDetector(constraintIlluminationDetector);
 
+		// Creating the associated CodedEventLogger and plugging it to the illumination detector. 
 		final GenericCodingEventDetector codingEventIlluminationDetector = new GenericCodingEventDetector(constraintIlluminationDetector,
 				"Start of illumination", "End of illumination", true, "Illumination");
 		final CodedEventsLogger eventIlluminationLogger = new CodedEventsLogger();
 		final EventDetector eventIlluminationDetector = eventIlluminationLogger.monitorDetector(codingEventIlluminationDetector);
 		
+		// Adding the logger to the propagator, in order to monitor the event coded by the codingEventDetector
 		localPropagator.addEventDetector(eventIlluminationDetector);
 
-//////////////////////////////////////////////////////		
-
+		//////////////////// DAZZLING DETECTOR ///////////////////////////////
+		
+		// Creating the dazzling detector and adding it to the propagator.
 		final EventDetector constraintDazzlingDetector = createConstraintDazzlingDetector(targetSite);
-
 		localPropagator.addEventDetector(constraintDazzlingDetector);
 
+		// Creating the associated CodedEventLogger and plugging it to the dazzling detector. 
 		final GenericCodingEventDetector codingEventDazzlingDetector = new GenericCodingEventDetector(constraintDazzlingDetector,
 				"Start of dazzling", "End of dazzling", true, "Dazzling");
 		final CodedEventsLogger eventDazzlingLogger = new CodedEventsLogger();
 		final EventDetector eventDazzlingDetector = eventDazzlingLogger.monitorDetector(codingEventDazzlingDetector);
 		
+		// Adding the logger to the propagator, in order to monitor the event coded by the codingEventDetector
 		localPropagator.addEventDetector(eventDazzlingDetector);
 
-/////////////////////////////////////////////////////////
+		//////////////////// ORBIT PROPAGATION ///////////////////////////////
+		// Now, the local propagator is configured with all the detectors and loggers. So we can propagate.
+		
 		// Finally propagating the orbit
 		localPropagator.propagate(this.getStartDate(), this.getEndDate());
 		
-/////////////////////////////////////////////////////////
-		final Timeline timeline1 = new Timeline(eventVisibilityLogger,
+		//////////////////// CREATION OF THE 3 TIMELINES ///////////////////////////////
+		
+		// Creating the first timeline, which corresponds to the visibility phenomenon
+		final Timeline timelineVisibility = new Timeline(eventVisibilityLogger,
 		new AbsoluteDateInterval(this.getStartDate(), this.getEndDate()), null);
-
-		final Timeline timeline2 = new Timeline(eventIlluminationLogger,
+		
+		// Creating the second timeline, which corresponds to the illumination phenomenon
+		final Timeline timelineIllumination = new Timeline(eventIlluminationLogger,
 				new AbsoluteDateInterval(this.getStartDate(), this.getEndDate()), null);
-
-		final Timeline timeline3 = new Timeline(eventDazzlingLogger,
+		
+		// Creating the third timeline, which corresponds to the dazzling phenomenon
+		final Timeline timelineDazzling = new Timeline(eventDazzlingLogger,
 				new AbsoluteDateInterval(this.getStartDate(), this.getEndDate()), null); 
-		/////////////////////
+		
+		///////////////////// CREATION OF THE GLOBAL TIMELINE /////////////////////////
+		// The idea is to create a global timeline concatenating the 3 timelines.
 
+		// Creating the global timeline
 		final Timeline siteAccessTimeline = new Timeline(
 				new AbsoluteDateInterval(this.getStartDate(), this.getEndDate()));
+		
 		// Adding the phenomena of all the considered timelines
-		for (final Phenomenon phenom : timeline1.getPhenomenaList()) {
+		for (final Phenomenon phenom : timelineVisibility.getPhenomenaList()) {
 			siteAccessTimeline.addPhenomenon(phenom);
 		}
-		for (final Phenomenon phenom : timeline2.getPhenomenaList()) {
+		for (final Phenomenon phenom : timelineIllumination.getPhenomenaList()) {
 			siteAccessTimeline.addPhenomenon(phenom);
 		}
-		for (final Phenomenon phenom : timeline3.getPhenomenaList()) {
+		for (final Phenomenon phenom : timelineDazzling.getPhenomenaList()) {
 			siteAccessTimeline.addPhenomenon(phenom); 
 		} 
 
 		return siteAccessTimeline;
 
 	}
+	
 	/**
-	 * [COPY-PASTE AND COMPLETE THIS METHOD TO ACHIEVE YOUR PROJECT]
-	 * 
-	 * This method should compute a {@link Timeline} object which encapsulates all
-	 * the {@link Phenomenon} corresponding to a orbital phenomenon X relative to
-	 * the input target {@link Site}. For example, X can be the {@link Site}
-	 * visibility phenomenon.
-	 * 
-	 * You can copy-paste this method and adapt it for every X {@link Phenomenon}
-	 * and {@link Timeline} you need to implement. The global process described here
-	 * stays the same.
+	 * Create an adapted instance of {@link EventDetector} for monitoring 
+	 * the events defined by the visibility constraint, for the input 
+	 * target site.
 	 * 
 	 * @param targetSite Input target {@link Site}
-	 * @return The {@link Timeline} containing all the {@link Phenomenon} relative
-	 *         to the X phenomenon to monitor.
-	 * @throws PatriusException If a {@link PatriusException} occurs when creating
-	 *                          the {@link Timeline}.
-	 */
-	
-
-	/**
-	 * [COPY-PASTE AND COMPLETE THIS METHOD TO ACHIEVE YOUR PROJECT]
-	 * 
-	 * Create an adapted instance of {@link EventDetector} matching the input need
-	 * for monitoring the events defined by the X constraint. (X can be a lot of
-	 * things).
-	 * 
-	 * You can copy-paste this method to adapt it to the {@link EventDetector} X
-	 * that you want to create.
-	 * 
-	 * Note: this can have different inputs that we don't define here
-	 * 
-	 * @return An {@link EventDetector} answering the constraint (for example a
-	 *         {@link SensorVisibilityDetector} for a visibility constraint).
+	 * @return An {@link EventDetector} answering the visibility constraint.
 	 */
 	private EventDetector createConstraintVisibilityDetector(Site targetSite) {
 		
+		// Creating a sensor model by using the sensor of the satellite
 		SensorModel sensorModel = new SensorModel(this.getSatellite().getAssembly(), "sensor");
 		
+		// Adding the earth as a masking body to the sensor model
 		sensorModel.addMaskingCelestialBody(this.getEarth());
+		
+		// Defining the target by creating a PVCoordinatesProvider and a radius
 		PVCoordinatesProvider target = new TopocentricFrame(this.getEarth(), targetSite.getPoint(),targetSite.getName());
-		LocalRadiusProvider radius = new ConstantRadiusProvider(0);
+		LocalRadiusProvider radius = new ConstantRadiusProvider(0); // radius of 0 because we consider the target as a point.
+		
+		// Adding the target to the sensor model.
 		sensorModel.setMainTarget(target, radius);
 		
-		EventDetector visibilityDetector = new SensorVisibilityDetector(sensorModel, MAXCHECK_EVENTS, TRESHOLD_EVENTS, EventDetector.Action.CONTINUE, 
-				EventDetector.Action.CONTINUE);
+		// Creating the event visibility detector for the associated target, by using the sensor model.
+		EventDetector visibilityDetector = new SensorVisibilityDetector(sensorModel, MAXCHECK_EVENTS, TRESHOLD_EVENTS, 
+				EventDetector.Action.CONTINUE, EventDetector.Action.CONTINUE);
 
 		return visibilityDetector;
 	}
 	
 	/**
+	 * Create an adapted instance of {@link EventDetector} for monitoring 
+	 * the events defined by the illumination constraint, for the input 
+	 * target site.
 	 * 
-	 * Create an adapted instance of {@link EventDetector} matching the input need
-	 * for monitoring the events defined by the illumination constraint.
-	 * 
-	 * 
-	 * Note: this can have different inputs that we don't define here
-	 * 
-	 * @return An {@link EventDetector} answering the constraint (for example a
-	 *         {@link SensorVisibilityDetector} for a visibility constraint).
+	 * @param targetSite Input target {@link Site}
+	 * @return An {@link EventDetector} answering the illumination constraint.
 	 */
 	private EventDetector createConstraintIlluminationDetector(Site targetSite) {
 		
-		
+		// Defining the target as a PVCoordinatesProvider
 		PVCoordinatesProvider target = new TopocentricFrame(this.getEarth(), targetSite.getPoint(),targetSite.getName());
+		
+		// Creating the illumination detector for the associated target. The angle to consider is the one between the
+		// target zenith and the direction target-->sun (sun incidence angle). By taking in input the Earth, the target 
+		// and the Sun as we did, the calculated angle is the one between the opposite of the zenith and the direction 
+		// target--sun. That's why we compare it with 180 minus the sun incidence angle.
 		EventDetector illuminationDetector = new ThreeBodiesAngleDetector(this.getEarth(), target ,
 				this.getSun(), MathLib.toRadians(180-ConstantsBE.MAX_SUN_INCIDENCE_ANGLE), MAXCHECK_EVENTS, 
 				TRESHOLD_EVENTS, EventDetector.Action.CONTINUE );
-		
 		
 		return illuminationDetector;
 	}
 	
 	/**
+	 * Create an adapted instance of {@link EventDetector} for monitoring 
+	 * the events defined by the dazzling, for the input target site.
 	 * 
-	 * Create an adapted instance of {@link EventDetector} matching the input need
-	 * for monitoring the events defined by the illumination constraint.
-	 * 
-	 * 
-	 * Note: this can have different inputs that we don't define here
-	 * 
-	 * @return An {@link EventDetector} answering the constraint (for example a
-	 *         {@link SensorVisibilityDetector} for a visibility constraint).
+	 * @param targetSite Input target {@link Site}
+	 * @return An {@link EventDetector} detecting the dazzling.
 	 */
 	private EventDetector createConstraintDazzlingDetector(Site targetSite) {
 		
-		
+		// Defining the target as a PVCoordinatesProvider
 		PVCoordinatesProvider target = new TopocentricFrame(this.getEarth(), targetSite.getPoint(),targetSite.getName());
-		EventDetector DazzlingDetector = new ThreeBodiesAngleDetector(this.getSatellite().getPropagator().getPvProvider(), target, 
+		
+		// Creating the dazzling detector for the associated target. The angle to consider is the one between the
+		// direction target-->satellite and the direction target--sun (sun phase angle). By taking in input the 
+		// satellite, the target and the sun, the calculated angle is also the sun phase angle, so we can compare
+		// them.
+		EventDetector dazzlingDetector = new ThreeBodiesAngleDetector(this.getSatellite().getPropagator().getPvProvider(), target, 
 				this.getSun(), MathLib.toRadians(ConstantsBE.MAX_SUN_PHASE_ANGLE), MAXCHECK_EVENTS, TRESHOLD_EVENTS,
 				EventDetector.Action.CONTINUE );
 		
-		
-		return DazzlingDetector;
+		return dazzlingDetector;
 	}
 
 	/**
-	 * [COMPLETE THIS METHOD TO ACHIEVE YOUR PROJECT]
-	 * 
 	 * Compute the access plan.
 	 * 
 	 * Reminder : the access plan corresponds to the object gathering all the
@@ -417,37 +427,25 @@ public class CompleteMission extends SimpleMission {
 	 * horizon. One opportunity of access is defined by an access window (an
 	 * interval of time during which the satellite can observe the target and during
 	 * which all the observation conditions are achieved : visibility, incidence
-	 * angle, illumination of the scene,etc.). Here, we suggest you use the Patrius
-	 * class {@link Timeline} to encapsulate all the access windows of each site of
-	 * interest. One access window will then be described by the {@link Phenomenon}
-	 * object, itself defined by two {@link CodedEvent} objects giving the start and
-	 * end of the access window. Please find more tips and help in the submethods of
-	 * this method.
-	 * 
+	 * angle, illumination of the scene,etc.).
 	 * @return the sites access plan with one {@link Timeline} per {@link Site}
 	 * @throws PatriusException If a {@link PatriusException} occurs during the
 	 *                          computations
 	 */
 	public Map<Site, Timeline> computeAccessPlan() throws PatriusException {
-		/**
-		 * Here you need to compute one access Timeline per target Site. You can start
-		 * with only one site and then try to compute all of them.
-		 * 
-		 * Note : when computing all the sites, try to make sure you don't decrease the
-		 * performance of the code too much. You might have some modifications to do in
-		 * order to ensure a reasonable time of execution.
-		 */
 		logger.info("============= Computing Access Plan =============");
 		
+		// Iterating over all sites
 		for (Site targetSite : this.getSiteList()) {
+			
 			logger.info(" Site : " + targetSite.getName());
-	
+			
 			// Checking if the Site access Timeline has already been serialized or not
 			final String filename = generateSerializationName(targetSite, hashConstantBE);
 			File file = new File(filename);
 			boolean loaded = false;
 	
-			// If the file exist for the current Site, we try to load its content
+			// If the file exists for the current Site, we try to load its content
 			if (file.exists()) {
 				try {
 					// Load the timeline from the file and add it to the accessPlan
@@ -461,7 +459,6 @@ public class CompleteMission extends SimpleMission {
 					logger.warn(e.getMessage());
 				}
 			}
-	
 			// If it was not serialized or if loading has failed, we need to compute and
 			// serialize the site access Timeline
 			if (!loaded) {
@@ -486,8 +483,6 @@ public class CompleteMission extends SimpleMission {
 	}
 
 	/**
-	 * [COMPLETE THIS METHOD TO ACHIEVE YOUR PROJECT]
-	 * 
 	 * Compute the observation plan.
 	 * 
 	 * Reminder : the observation plan corresponds to the sequence of observations
@@ -502,147 +497,233 @@ public class CompleteMission extends SimpleMission {
 	 *                          computations
 	 */
 	public Map<Site, AttitudeLawLeg> computeObservationPlan() throws PatriusException {
+		/**
+		 * In order to calculate the observation, we defined a greedy algorithm. Our
+		 * algorithm can be decomposed in two steps:
+		 * 
+		 * Step 1 : defining all the possible observation windows, for all sites,
+		 * 			and sorting them by score.
+		 * 
+		 * 			To do this, we create a global array that contains all the
+		 * 			possible observations, for all sites, and for each timeline
+		 * 			of each site. In the array, an observation is defined by
+		 * 			the association of a Site, an AttitudeLawLeg and a score.
+		 * 			Therefore, there might be several times the same Site in 
+		 * 			the array, but associated to different observations. 
+		 * 			Then, we sort this array by score (in descending order).
+		 * 			By doing this, the Sites can be in disorder in the array,
+		 * 			because only sort by score. For example, we can have a 
+		 * 			sequence :
+		 * 			[..., (SiteA, ObsLeg1, Score), (SiteB, ObsLeg1, Score),
+		 * 			(SiteA, ObsLeg2, Score), ...].
+		 * 			This ensures that we insert each time the best possible 
+		 *			observation.
+		 * 
+		 * Step 2 : inserting observations in the plan, by prioritizing the ones
+		 * 			with the highest scores.
+		 * 
+		 * 			To do this, we iterate over the observations defined at the
+		 * 			previous step. For each iteration, we test if the
+		 * 			observation can be inserted in the plan.
+		 * 			First condition : the Site shouldn't have been already
+		 * 			observed.
+		 * 			Second condition : there shouldn't be another observation
+		 * 			in the same time interval.
+		 * 			Third condition : the free-interval with the previous
+		 * 			observation and the next one should be large enough to
+		 * 			perform the slew.
+		 * 			If one of these conditions is not respected, we try to
+		 * 			insert the next observation in the array...etc... until
+		 * 			we reach the end of the array.
+		 */
 		
 		logger.info("============= Computing Observation Plan =============");
 		
-		double stepWindow = 5.001; // in seconds. We take .001 to avoid issues with open intervals
+		//////////////////////////// STEP 1 //////////////////////////////
 		
-		// The idea is first to create an array which will contain all observations.
-		// For each city, we have several timelines. For each timeline, we will compute different observation windows of 10s, by using a sliding
-		// window of 5s. 
-		// Then, we will have many possible observation intervals. We store them in the array allObservationArray, and we will sort them by
-		// decreasing score.
+		// Creating the array that will contain all possible observations.
+		List<Object[]> allObservationsArray = new ArrayList<>();
 		
-		List<Object[]> allObservationsArray = new ArrayList<>(); // array which will contain all possible observations : target, obs, score
+		// Defining our observations : for each timeline of each site, we compute 
+		// different observation intervals of 10s, by using a sliding window of
+		// 5.001s. For example, for a timeline ]7h10:00:000, 7h10:17:000[, we define
+		// 2 observation intervals : 
+		// [7h10:00:001 ; 7h10:10:001], [7h10:05:002 ; 7h10:15:002]
+		// We took a window step of 5.001s and not 5s to avoid issues with open intervals.
 		
+		// Defining the step window
+		double stepWindow = 5.001; // in seconds.
+		
+		// Iterating over the sites
 		for (final Entry<Site, Timeline> entry : this.accessPlan.entrySet()) {
-			// Scrolling through the entries of the accessPlan
+			
 			// Getting the target Site
 			final Site target = entry.getKey();
-			//logger.info("Current target site : " + target.getName());
+			
 			// Getting its access Timeline
 			final Timeline timeline = entry.getValue();
-			// Getting the access intervals
-			final AbsoluteDateIntervalsList accessIntervals = new AbsoluteDateIntervalsList();
+			
 			// Create the observation law for the current target
 			final AttitudeLaw observationLaw = createObservationLaw(target);
 			
+			// Iterating over the timelines of the site
 			for (final Phenomenon accessWindow : timeline.getPhenomenaList()) {
-				int timelineCount = 1;
-				// The Phenomena are sorted chronologically so the accessIntervals List is too
-				final AbsoluteDateInterval accessInterval = accessWindow.getTimespan();
-				accessIntervals.add(accessInterval);
-				final List<AbsoluteDate> middleDateList = accessInterval.getDateList(stepWindow); //we obtain the middle of intervals
-				//logger.info(middleDateList.toString());
-				//logger.info(accessInterval.toString());
 				
-				for (int i = 0; i < middleDateList.size() - 1; i++) { // we don't take the last interval because it can last less than 10s
+				int timelineCount = 1; //Used to name the obsLeg
+				
+				// Getting the interval corresponding to the timeline
+				final AbsoluteDateInterval accessInterval = accessWindow.getTimespan();
+				
+				// Creating a list containing the middle of the future observations
+				final List<AbsoluteDate> middleDateList = accessInterval.getDateList(stepWindow);
+				
+				// Iterating over the middle dates of the future observations.
+				// We don't consider the last middle date, because we may not have
+				// enough time after it to create an observation.
+				for (int i = 0; i < middleDateList.size() - 1; i++) {
+					
+					// Creating the observation interval : 10s around the middle date
 		            final AbsoluteDate middleDate = middleDateList.get(i);
 		            final AbsoluteDate obsStart = middleDate.shiftedBy(-ConstantsBE.INTEGRATION_TIME / 2);
 					final AbsoluteDate obsEnd = middleDate.shiftedBy(ConstantsBE.INTEGRATION_TIME / 2);
 					final AbsoluteDateInterval obsInterval = new AbsoluteDateInterval(obsStart, obsEnd);
-					// Then, we create our AttitudeLawLeg, that we name using the name of the target
+					
+					// Creating the corresponding AttitudeLawLeg and naming it
 					final String legName = "OBS_" + timelineCount + "_" + i + "_" + target.getName();
 					final AttitudeLawLeg obsLeg = new AttitudeLawLeg(observationLaw, obsInterval, legName);
-					// We compute the score of the observation
+					
+					// Computing the score of the observation
 					final double scoreObs = MathLib.cos(getEffectiveIncidence(target, obsLeg)) * target.getScore();
+					
+					// Adding the observation to the array
 					allObservationsArray.add(new Object[]{target, obsLeg, scoreObs});
 				}
 				timelineCount++;
 			}
 			
 		}
-		// We sort the observations in descending order of score.
+		// Sorting the observations in descending order of score
 		allObservationsArray.sort((record1, record2) -> Double.compare((double) record2[2], (double) record1[2]));
 		
-		// Next step of the code : use allObservationArray to compute the observation plan, by prioritizing the highest scores.
-		List<String> observedSitesList = new ArrayList<>(); //List which will contain the already observed sites
 		
+		//////////////////////////// STEP 2 //////////////////////////////
+		
+		// Creating a list which will contain the already observed sites.
+		List<String> observedSitesList = new ArrayList<>();
+		
+		// Iterating over all the possible observations
 		outerLoop:
 		for (Object[] obs : allObservationsArray) {
             Site currentTarget = (Site) obs[0];
       
             // First condition : the site should not have been already observed
             if (observedSitesList.contains(currentTarget.getName())) {
+            	// If it has already been observed, we directly go to
+            	// the next observation to insert.
             	continue;
             }
             
+            // Defining the start and the end of the observation that we want
+            // to insert
             AttitudeLawLeg currentObsLeg = (AttitudeLawLeg) obs[1];
             AbsoluteDateInterval currentInterval = currentObsLeg.getTimeInterval();
             AbsoluteDate currentStartInterval = currentInterval.getLowerData();
             AbsoluteDate currentEndInterval = currentInterval.getUpperData();
             
-            Attitude currentStartIntervalAttitude = currentObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), currentStartInterval,
-            		this.getEme2000());
-            Attitude currentEndIntervalAttitude = currentObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), currentEndInterval,
-            		this.getEme2000());
+            // Defining the start and end attitudes of the observation we want to insert.
+            Attitude currentStartIntervalAttitude = currentObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), 
+            		currentStartInterval,this.getEme2000());
+            Attitude currentEndIntervalAttitude = currentObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), 
+            		currentEndInterval, this.getEme2000());
+            
             logger.info("---------------------------------------------");
             logger.info("Trying to insert " + currentTarget.getName() + " : " + currentInterval + " in the observation plan...");
             
+            // Iterating over all the observations that are already in the plan,
+            // in order to test compatibility with the one we want to insert.
             for (AttitudeLawLeg otherObsLeg : observationPlan.values()) {
+            	// Remark : In practice, we only need to test compatibility with 
+            	// the previous one in the plan, and the following one. Here, we
+            	// test the compatibility with all the observations that are in 
+            	// the plan, so it's not optimized. But the computation time
+            	// is correct.
+            	
+            	// Defining the start and the end of the observation that is
+                // already in the plan
             	AbsoluteDateInterval otherInterval = otherObsLeg.getTimeInterval();
             	AbsoluteDate otherStartInterval = otherInterval.getLowerData();
                 AbsoluteDate otherEndInterval = otherInterval.getUpperData();
+                
                 logger.info("-");
                 logger.info("Testing compatibility with " + otherObsLeg.getNature() + " : " + otherInterval);
                 
-            	// Second condition : it should be the only observation during this interval
+            	// Second condition : it should be the only observation during this interval.
+                // For this, we compute the intersection between the observation we want to
+                // insert and the one that is already in the plan.
             	if (otherInterval.getIntersectionWith(currentInterval)!=null) {
             		logger.info("Non-empty intersection detected : insertion cancelled");
+            		// If the intersection is not empty, we directly go to the next
+            		// observation to insert
             		continue outerLoop;
             	}
             	logger.info("Intersection non-empty : OK");
-            	// Third condition : the slew duration must be upper than the time between observations
             	
-            	Attitude otherStartIntervalAttitude = otherObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), otherStartInterval,
-                		this.getEme2000());
+            	// Third condition : the slew duration must be upper than the time between observations.
+            	
+            	// Testing compatibility with previous observation :
+            	// For this, we first compute the time between the end of the observation we want to insert,
+            	// and the start of the one that is already in the plan. It must be upper than the slew
+            	// duration :
+            	
+            	// Computing the slew duration
+            	Attitude otherStartIntervalAttitude = otherObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), 
+            			otherStartInterval, this.getEme2000());
             	double slewDurationRight = this.getSatellite().computeSlewDuration(currentEndIntervalAttitude, otherStartIntervalAttitude);
             	
-            	//logger.info("Right delta_T : " + Math.abs(otherStartInterval.durationFrom(currentEndInterval)));
-            	//logger.info("Right slew duration :" + slewDurationRight);
             	if (Math.abs(otherStartInterval.durationFrom(currentEndInterval)) < slewDurationRight) {
             		logger.info("Too short duration with the next observation : insertion cancelled");
+            		// If the duration with the previous observation is too short, we directly go to
+            		// the next observation to insert
             		continue outerLoop;
             	}
-        
+            	
+            	// Testing compatibility with following observation :
+            	// For this, we first compute the time between the end of the observation that is already
+            	// in the plan, and the start of the one we want to insert. It must be upper than the slew
+            	// duration :
+            	
+            	// Computing the slew duration
             	Attitude otherEndIntervalAttitude = otherObsLeg.getAttitudeLaw().getAttitude(this.createDefaultPropagator(), otherEndInterval,
                 		this.getEme2000());
             	double slewDurationLeft = this.getSatellite().computeSlewDuration(otherEndIntervalAttitude, currentStartIntervalAttitude);
-         
-            	//logger.info("Left delta_T : " + Math.abs(currentStartInterval.durationFrom(otherEndInterval)));
-            	//logger.info("Left slew duration :" + slewDurationLeft);
+            	
             	if (Math.abs(currentStartInterval.durationFrom(otherEndInterval)) < slewDurationLeft) {
             		logger.info("Too short duration with the previous observation : insertion cancelled");
+            		// If the duration with the following observation is too short, we directly go to
+            		// the next observation to insert
             		continue outerLoop;
             	}
             	logger.info("Enough time between the 2 observations : OK");
             	
             }
-            logger.info("-");
-            logger.info("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Successful insertion of " + currentTarget.getName() + ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
-            logger.info("-");
-            observedSitesList.add(currentTarget.getName());
-            /*logger.info("Attitude at the start :" + currentObsLeg.getAttitude(this.createDefaultPropagator(), currentObsLeg.getDate(), 
-            		this.getEme2000()).getRotation()); */
+            
+            //Finally adding the observation to the plan if all conditions are met
             this.observationPlan.put(currentTarget, currentObsLeg);
             
+            // Updating the list of observed sites
+            observedSitesList.add(currentTarget.getName());
+            
+            logger.info("-");
+            logger.info("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Successful insertion of " + currentTarget.getName()
+            			+ ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+            logger.info("-");
 		}
 		
-		//
-		//logger.info("Size of total array : " + allObservationsArray.size());
-        
 		return this.observationPlan;
 	}
 
 	/**
-	 * [COMPLETE THIS METHOD TO ACHIEVE YOUR PROJECT]
-	 * 
 	 * Computes the cinematic plan.
-	 * 
-	 * Here you need to compute the cinematic plan, which is the cinematic chain of
-	 * attitude law legs (observation, default law and slews) needed to perform the
-	 * mission. Usually, we start and end the mission in default law and during the
-	 * horizon, we alternate between default law, observation legs and slew legs.
 	 * 
 	 * @return a {@link StrictAttitudeLegsSequence} that gives all the cinematic
 	 *         plan of the {@link Satellite}. It is a chronological sequence of all
@@ -655,131 +736,152 @@ public class CompleteMission extends SimpleMission {
 	 */
 	
 	public StrictAttitudeLegsSequence<AttitudeLeg> computeCinematicPlan() throws PatriusException {
+		/**
+		 * We faced an issue when calculating the cinematic plan. We had some problems with the slews from
+		 * the nadirs to the sites. First, we computed the observationLaw with the constructor using the
+		 * Geodetic point. But we noticed that the slews from the nadir were very long (higher than the
+		 * maxSlewDuration). Moreover, when visualizing in VTS, the satellite pointed on other parts of 
+		 * the globe. So we concluded that there was an issue with our method createObservationLaw. We
+		 * tried to modify it by using 3D vectors and it solved the problems. 
+		 * But last week, we asked a teacher about which 3D vectors to use, and he said that we couldn't
+		 * use the getZenith() vector.
+		 * 
+		 * To summarize, it works, but we have a doubt on our createObservationLaw method, because we
+		 * still use the getZenith() vector.
+		 */
 
 		logger.info("============= Computing Cinematic Plan =============");
 		
+		// Sorting the observation plan by date of observation.
+		// Comparison based on the lower bounds of the time intervals
 		Map<Site, AttitudeLawLeg> sortedObservationPlan = this.observationPlan.entrySet()
-			    .stream()
-			    .sorted((entry1, entry2) -> {
-			        // Comparaison basée sur les bornes inférieures des intervalles de temps
+			    .stream().sorted((entry1, entry2) -> {
 			        AbsoluteDateInterval interval1 = entry1.getValue().getTimeInterval();
 			        AbsoluteDateInterval interval2 = entry2.getValue().getTimeInterval();
-			        return interval1.getLowerData().compareTo(interval2.getLowerData());
-			    })
-			    .collect(Collectors.toMap(
-			        Map.Entry::getKey,
-			        Map.Entry::getValue,
-			        (e1, e2) -> e1, // Résolution des collisions (non applicable ici)
-			        LinkedHashMap::new // Maintient l'ordre des éléments triés
-			    ));
-		
+			        return interval1.getLowerData().compareTo(interval2.getLowerData());})
+			    	.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
+			        (e1, e2) -> e1, LinkedHashMap::new));
 		
 		// Getting our nadir law
 		final AttitudeLaw nadirLaw = this.getSatellite().getDefaultAttitudeLaw();
 		
-		//Getting the propagator
+		// Getting the propagator
 		final KeplerianPropagator propagator = this.createDefaultPropagator();
 
-		// Getting all the dates we need to compute our slews
+		/////////// FIRST STEP : Initial Nadir Law --> Slew --> First Observation ////////////
+		
+		// Getting the start and end date of the mission
 		final AbsoluteDate start = this.getStartDate();
 		final AbsoluteDate end = this.getEndDate();
-		//logger.info("StartAll : "+ start);
-		//logger.info("EndAll : "+ end);
 		
-		// Get the first observation
+		// Getting the first observation and its AttitudeLeg
 		Site firstSite = sortedObservationPlan.keySet().iterator().next();
-		logger.info(firstSite.getName());
 		AttitudeLeg firstObsLeg = sortedObservationPlan.get(firstSite);
 		
+		// Getting the start of the first observation, and its attitude
 		final AbsoluteDate firstObsStart = firstObsLeg.getDate();
 		final Attitude startFirstObsAttitude = firstObsLeg.getAttitude(propagator, firstObsStart, getEme2000());
 		
-		//logger.info("Max slew duration " + this.getSatellite().getMaxSlewDuration());
-		final AbsoluteDate endInitialNadirLaw = firstObsStart.shiftedBy(-2*getSatellite().getMaxSlewDuration());
-		//logger.info("End first nadir " + endNadirLaw1);
-		//logger.info("Start of first obs " + firstObsStart);
+		// Defining the end date of the initial Nadir Law, and its attitude
+		final AbsoluteDate endInitialNadirLaw = firstObsStart.shiftedBy(-getSatellite().getMaxSlewDuration());
 		final Attitude endInitialNadirAttitude = nadirLaw.getAttitude(propagator, endInitialNadirLaw, getEme2000());
-		//logger.info("Start obs 1 Attitude " + startFirstObsAttitude.getRotation());
-		//logger.info("End nadir 1 Attitude " + endNadir1Attitude.getRotation());
 		
+		// Creating the Attitude Law Legs
 		final AttitudeLawLeg initialNadir = new AttitudeLawLeg(nadirLaw, start, endInitialNadirLaw, "Nadir_Law_1");
-		final ConstantSpinSlew slewFromInitialNadir = new ConstantSpinSlew(endInitialNadirAttitude, startFirstObsAttitude, "Slew_Nadir_to_" + firstSite.getName());
+		final ConstantSpinSlew slewFromInitialNadir = new ConstantSpinSlew(endInitialNadirAttitude, startFirstObsAttitude, 
+																			"Slew_Nadir_to_" + firstSite.getName());
 		
-		//logger.info("Slew duration T :" + slew1.getTimeInterval().getDuration());
-		//logger.info("Theoric slew duration T :" + this.getSatellite().computeSlewDuration(endNadir1Attitude, startFirstObsAttitude));
-		
+		// Adding them to the cinematic plan
 		this.cinematicPlan.add(initialNadir);
 		this.cinematicPlan.add(slewFromInitialNadir);
 		this.cinematicPlan.add(firstObsLeg);
 		
-		int sizeObservationPlan = sortedObservationPlan.size(); // Taille totale de la Map
-		int currentIndex = 0;
+		/////////// SECOND STEP : Slew from 1st observation -->  2nd Observation --> Slew to Nadir --> ... --> Last Observation ////////////
+		
+		int sizeObservationPlan = sortedObservationPlan.size();
+		int currentIndex = 0; //Used to detect the last Site
+		
+		// Creating a variable PreviousSite because we need to store it to compute the slew to the next one.
 		Site previousSite = firstSite;
 		
+		// Iterating over all the observations
 		for (Map.Entry<Site, AttitudeLawLeg> entry : sortedObservationPlan.entrySet()) {
-			Site site = entry.getKey();
-			//logger.info("Index " + currentIndex);
-			//logger.info("Size obs plan :" + sizeObservationPlan);
 			
-			// We don't process the first site because we already did it before the loop
+			// We don't process the first site because we already did it before the loop (step 1)
 			if (currentIndex == 0) {
 				currentIndex++;
 				continue;
 			}
-			logger.info(site.getName());
+			
+			// Getting the site associated to the next observation
+			Site site = entry.getKey();
+			
+			// Getting the observation legs associated to the previous and the next site
 			AttitudeLeg obsLeg = sortedObservationPlan.get(site);
 			AttitudeLeg previousObsLeg = sortedObservationPlan.get(previousSite);
 			
-			AbsoluteDate startObsLeg = obsLeg.getDate();
-			Attitude startObsAttitude = obsLeg.getAttitude(propagator, startObsLeg, getEme2000());
+			// Getting the end of the previous observation, and its attitude
 			AbsoluteDate endPreviousObsLeg = previousObsLeg.getEnd();
 			Attitude endPreviousObsAttitude = previousObsLeg.getAttitude(propagator, endPreviousObsLeg, getEme2000());
 			
-			if (startObsLeg.durationFrom(endPreviousObsLeg) > 2*2 * this.getSatellite().getMaxSlewDuration()) {
-				final AbsoluteDate startNadirLaw = endPreviousObsLeg.shiftedBy(2*getSatellite().getMaxSlewDuration());
-				final AbsoluteDate endNadirLaw = startObsLeg.shiftedBy(-2*getSatellite().getMaxSlewDuration());
-				//logger.info("Durée slew " + startNadirLaw.durationFrom(endPreviousObsLeg));
-				//logger.info("Durée nadir " + endNadirLaw.durationFrom(startNadirLaw));
+			// Getting the start of the next observation, and its attitude
+			AbsoluteDate startObsLeg = obsLeg.getDate();
+			Attitude startObsAttitude = obsLeg.getAttitude(propagator, startObsLeg, getEme2000());
+			
+			// If there is enough time between the two observations, we insert a Nadir
+			if (startObsLeg.durationFrom(endPreviousObsLeg) > 2 * this.getSatellite().getMaxSlewDuration()) {
 				
+				// Defining the start and the end date of the Nadir Law, and its attitude
+				final AbsoluteDate startNadirLaw = endPreviousObsLeg.shiftedBy(getSatellite().getMaxSlewDuration());
+				final AbsoluteDate endNadirLaw = startObsLeg.shiftedBy(-getSatellite().getMaxSlewDuration());
 				final Attitude startNadirAttitude = nadirLaw.getAttitude(propagator, startNadirLaw, getEme2000());
 				final Attitude endNadirAttitude = nadirLaw.getAttitude(propagator, endNadirLaw, getEme2000());
 				
+				// Creating the Attitude Law Legs
 				final AttitudeLawLeg nadir = new AttitudeLawLeg(nadirLaw, startNadirLaw, endNadirLaw, "Nadir_Law");
-				
-				final ConstantSpinSlew slewToNadir = new ConstantSpinSlew(endPreviousObsAttitude, startNadirAttitude, "Slew_from_" + previousSite.getName()
-						+ "_to_Nadir");
-				final ConstantSpinSlew slewFromNadir = new ConstantSpinSlew(endNadirAttitude, startObsAttitude, "Slew_from_Nadir_to_" + site.getName());
-				
+				final ConstantSpinSlew slewToNadir = new ConstantSpinSlew(endPreviousObsAttitude, startNadirAttitude, 
+														"Slew_from_" + previousSite.getName() + "_to_Nadir");
+				final ConstantSpinSlew slewFromNadir = new ConstantSpinSlew(endNadirAttitude, startObsAttitude, 
+															"Slew_from_Nadir_to_" + site.getName());
+				// Adding them to the cinematic plan
 				this.cinematicPlan.add(slewToNadir);
 				this.cinematicPlan.add(nadir);
 				this.cinematicPlan.add(slewFromNadir);
-				this.cinematicPlan.add(obsLeg);
-				//logger.info("End obs leg : " + obsLeg.getEnd());
-				
-			}
-			else {
-				
-				final ConstantSpinSlew slew = new ConstantSpinSlew(endPreviousObsAttitude, startObsAttitude, "Slew_from_" + previousSite.getName() +
-						"_to_" + site.getName() );
-				this.cinematicPlan.add(slew);
-				this.cinematicPlan.add(obsLeg);
-				//logger.info("End obs leg : " + obsLeg.getEnd());
+				this.cinematicPlan.add(obsLeg);	
 			}
 			
-			// We create the last slew to the final nadir
+			// Else, we only inert a slew
+			else {
+				
+				// Creating the Attitude Law Leg
+				final ConstantSpinSlew slew = new ConstantSpinSlew(endPreviousObsAttitude, startObsAttitude, 
+										"Slew_from_" + previousSite.getName() + "_to_" + site.getName() );
+				
+				// Adding it to the cinematic plan with the next observation
+				this.cinematicPlan.add(slew);
+				this.cinematicPlan.add(obsLeg);
+			}
+			
+			// If this is the last Site of the observation plan, we create the final Nadir
 			if (currentIndex==sizeObservationPlan-1) {
+				// Getting the end of the last observation, and its attitude
 				AbsoluteDate endObsLeg = obsLeg.getEnd();
 				Attitude endObsAttitude = obsLeg.getAttitude(propagator, endObsLeg, getEme2000());
 				
-				AbsoluteDate startFinalNadirLaw = endObsLeg.shiftedBy(2*getSatellite().getMaxSlewDuration());
+				// Creating the start of the final Nadir law, and its attitude
+				AbsoluteDate startFinalNadirLaw = endObsLeg.shiftedBy(getSatellite().getMaxSlewDuration());
 				Attitude startFinalNadirAttitude = nadirLaw.getAttitude(propagator, startFinalNadirLaw, getEme2000());
+				
+				// Creating the Attitude Law Legs
 				ConstantSpinSlew slewToFinalNadir = new ConstantSpinSlew(endObsAttitude, startFinalNadirAttitude, "Slew_to_final_Nadir");
-				//logger.info("Slew 2 start : " + slew2.getDate());
 				AttitudeLawLeg finalNadir = new AttitudeLawLeg(nadirLaw, startFinalNadirLaw, end, "Final_Nadir_Law");
+				
+				// Adding them to the cinematic plan
 				this.cinematicPlan.add(slewToFinalNadir);
 				this.cinematicPlan.add(finalNadir);
 			}
 			
+			// Updating the previous site, and the current index
 			previousSite = site;
 			currentIndex++;
 		}
@@ -787,24 +889,10 @@ public class CompleteMission extends SimpleMission {
 		return this.cinematicPlan;
 	}
 
-	/**
-	 * [COMPLETE THIS METHOD TO ACHIEVE YOUR PROJECT]
-	 * 
-	 * Create an observation leg, that is to say an {@link AttitudeLaw} that give
-	 * the {@link Attitude} (pointing direction) of the {@link Satellite} in order
-	 * to perform the observation of the input target {@link Site}.
-	 * 
-	 * An {@link AttitudeLaw} is an {@link AttitudeProvider} providing the method
-	 * {@link AttitudeProvider#getAttitude()} which can be used to compute the
-	 * {@link Attitude} of the {@link Satellite} at any given {@link AbsoluteDate}
-	 * (instant) during the mission horizon.
-	 * 
-	 * An {@link AttitudeLaw} is valid at anu time in theory.
-	 * 
-	 * @param target Input target {@link Site}
-	 * @return An {@link AttitudeLawLeg} adapted to the observation.
-	 * @throws PatriusException 
-	 */
+	
+	// Here is the first method that we used, but we faced problems with VTS
+	// (the satellite pointed anywhere in the globe)
+	
 	//private AttitudeLaw createObservationLaw(Site target) throws PatriusException {
 		/**
 		 * To perform an observation, the satellite needs to point the target for a
@@ -829,13 +917,35 @@ public class CompleteMission extends SimpleMission {
 		
 		return observationLaw;
 	}*/
+	
+	// Here is the method we use. It works, but the we have a doubt on the vectors
+	// that we use.
+	
+	/**
+	 * [COMPLETE THIS METHOD TO ACHIEVE YOUR PROJECT]
+	 * 
+	 * Create an observation leg, that is to say an {@link AttitudeLaw} that give
+	 * the {@link Attitude} (pointing direction) of the {@link Satellite} in order
+	 * to perform the observation of the input target {@link Site}.
+	 * 
+	 * An {@link AttitudeLaw} is an {@link AttitudeProvider} providing the method
+	 * {@link AttitudeProvider#getAttitude()} which can be used to compute the
+	 * {@link Attitude} of the {@link Satellite} at any given {@link AbsoluteDate}
+	 * (instant) during the mission horizon.
+	 * 
+	 * An {@link AttitudeLaw} is valid at any time in theory.
+	 * 
+	 * @param target Input target {@link Site}
+	 * @return An {@link AttitudeLawLeg} adapted to the observation.
+	 * @throws PatriusException 
+	 */
 	private AttitudeLaw createObservationLaw(Site target) throws PatriusException {
-	       
+	     
         AttitudeLaw observationLaw = new TargetGroundPointing(
                 this.getEarth(),
                 target.getPoint().getZenith(),
                 this.getSatellite().getSensorAxis(),
-                this.getSatellite().getFrameYAxis()
+                this.getSatellite().getFrameXAxis()
             );
         
         return observationLaw;
